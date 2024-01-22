@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{  
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+                                                                 /* Portada Cover 1*/
+   .contenido_cover{
+	   width: 100%;
+       height: 100%;
+	   position: relative;
+	   top: 92px;
+   }
+   .banner1{
+	   background-image: url(../imagenes/banner/banner-c.jpg);
+	   background-position: center to top;
+	   background-size: cover;
+	   background-repeat: no-repeat;
+	   animation: arriba 1s ease-in; 
+   }
+   .banner2{
+	   background-image: url(../imagenes/banner/banner-d.jpg);
+	   background-position: center to top;
+	   background-size: cover;
+	   background-repeat: no-repeat;
+	   animation: arriba 1s ease-in; 
+   }
+   
+.contenido_info_cover{
+	   width: 95%;
+	   max-width: 1145px;
+	   height: 550px;
+	   margin: auto;
+	   display: flex;
+	   flex-direction: column;
+	   text-align: left;
+	   justify-content: center;
+	   align-items: left;
+	   font-family: 'Lato', sans-serif;
+	   font-weight: 150%;
+	   position: relative;
+	   z-index: 1;
+}
+.contenido_info_cover h1{
+	    margin-top: 20px;
+		font-size: 50px;
+		font-weight: 600;
+		color: #FFFFFF;
+		text-shadow: 3px 3px #000000;
+		transform: uppercase;
+		margin-bottom: 30px;
+}
+.contenido_info_cover h2{
+		font-size: 28px;
+		font-weight: 500;
+		color: #FFFFFF;
+		
+}
+	
+.contenido_info_cover p{
+		font-size: 22px;
+		font-weight: 500;
+		color: #FFFFFF;
+}
+	                                                          /* Estilos generales */
+
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+
+                                                       /* Subrayado */
+.margen_superior{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center; 
+    font-weight: 500;
+    font-size: 28px;
+    color: #202931;	
+}
+.margen_superior h2{
+	margin-top: 100px;
+	display: inline-block;
+	position: relative;
+}
+.margen_superior h2::after{
+	content:"";
+	position: absolute;
+    width: 100px;
+	height: 4px;
+    background-color: #690AFF;
+	top: 1.4em;
+	left: 80px;
+}
+.parrafo{
+    text-align: justify;
+	margin-top: 20px;
+	line-height: 150%;
+	color: #202931;	
+}
+.subtitulo{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center; 
+    font-weight: 500;
+    font-size: 28px;
+    color: #202931;	
+}
+
+
+                                             /* Cuadro informativo */
+
+.content-cards-elearn{
+	margin-bottom: 50px;
+	font-family: 'Lato', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	cursor: default;
+}
+.titulo-elearn{
+	font-size: 36px;
+	text-align: center;
+	color: #373737;
+	margin-bottom: 30px;
+}
+.card-elearn{
+    width: 65%;
+    text-align: left;
+    height: 425px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(bottom, #F4F4FF 0%, #ffffff 100%); 
+	background: linear-gradient(to bottom, #F4F4FF 0%, #ffffff 100%);
+	transform: scale(1);
+    transition: transform 0.6s;
+}
+.icono img{
+	margin-left: 50px;
+	width: 50px; 
+}
+
+.card-elearn p > img{
+	width: 20px;
+	
+}
+
+.card-elearn:hover{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+}
+.card-elearn h3{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 22px;
+}
+.card-elearn p{
+	margin-left: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	line-height: 150%;
+	color: #F03559;	
+}
+                                           /* Método de Pagos */
+
+.content-cards-pago{
+	margin-bottom: 80px;
+	font-family: 'Lato', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	cursor: default;
+}
+.fondo1{
+	background: -webkit-linear-gradient(bottom, #FFE2CF 0%, #fffff5 100%); 
+	background: linear-gradient(to bottom, #FFE2CF 0%, #fffff5 100%);
+}
+.fondo2{
+	background: -webkit-linear-gradient(bottom, #E7FFF8 0%, #ffffff 100%); 
+	background: linear-gradient(to bottom, #E7FFF8 0%, #ffffff 100%);
+}
+.card-pago{
+    width: 40%;
+    text-align: center;
+    height: 240px;
+	border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.figura img{
+	width: 80px;
+}
+
+.card-pago h3{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #313131;
+}
+.card-pago:hover{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+}
+.card-pago p{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+                             /* Apartado */
+.apartado{
+	background: linear-gradient(to right, #F03559 0%, #690AFF 100%);
+	width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 60px 0;
+}
+.apartado h2{
+	color: #F8F9FA;
+}
+.apartado a{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: 700;
+    padding: 25px 45px;
+    color: #FFFFFF;
+	background-color:#04B0B0; 
+    border: 3px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #d6bcff;
+	justify-content:  center;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+.apartado a:hover{
+	color: #F8F9FA;
+	background-color: #690AFF;
+	transform: scale(1);
+	box-shadow: 0 0 5px 5px rgba(226, 252, 252, .5);
+}
+
+
+                                               /* Responsive */
+											   
+ @media screen and (max-width: 1200px){ 
+	.card-elearn{
+        width: 80%;
+		height: 460px;
+    }
+}
+@media screen and (max-width: 1100px){ 
+	.card-elearn{
+        width: 90%;
+		height: 430px;
+    }
+}
+@media screen and (max-width: 890px){ 
+	.card-elearn{
+       height: 550px;
+    }
+}
+@media screen and (max-width: 830px){
+	.contenido_cover:before{
+	   content: "";
+	   width: 100%;
+	   height: 100%;
+	   background: rgba(255,255,255,0.6);
+	   position: absolute;
+	   top: 0;
+	   left: 0;
+   }
+	.contenido_info_cover h1{
+		text-align: center;
+        font-size: 34px;
+	}
+	.contenido_info_cover h2{
+		text-align: center;
+        font-size: 24px;
+		font-weight: 600;
+	}
+	.contenido_info_cover p{
+		text-align: center;
+        font-size: 18px;
+		color: #313131;
+		font-weight: 600;
+	}
+	
+	.subrayado{
+	   margin-top: 80px;
+	}
+          
+	.card-elearn{
+		width: 90%;
+        height: 530px;
+    }
+	
+	
+	
+}
+@media screen and (max-width: 720px){
+	.card-elearn{
+      	height: 625px;
+    }
+	.card-pago{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+	.content-cards-pago{
+		flex-direction: column;
+		padding: 10px;
+		justify-content: center;
+	}
+}

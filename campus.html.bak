@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Campus virtual | TeKneduca</title>
+	<link rel="icon" type="image/png" sizes="16x16"  href="favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+	<link rel="stylesheet" href="estilos/estilos_campus.css">
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu"> 
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="index.html">Inicio</a></li>
+				     <li><a href="cursos.html">Cursos online &#9660 </a>
+				         <ul>
+					        <li><a href="elearning.html">E-learning</a></li>
+						    <li><a href="plataformas.html">Plataformas LMS </a></li>
+						    <li><a href="flipped_classroom.html">Flipped Classroom </a></li>
+						    <li><a href="contenidos_digitales.html">Contenidos digitales educativos </a></li>
+						 </ul>
+				     </li> 
+					 <li><a href="inscripcion.html">¿Cómo inscribirme?</a></li>
+				     <li><a href="#" id="selected">Campus virtual </a></li>
+				     <li><a href="somos_tekneduca.html">Somos TeKneduca </a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+   
+                                                       <!-- Banner o Portada -->
+															 
+	   <div class= "container_campus">
+	           <div class= "container_info_campus">
+			       <div class="textos">
+                      <h1>Campus Virtual</h1>
+					  <h2>Tu espacio académico de formación online</h2>
+                      <a href="http://137.184.116.84/moodle/">Acceder</a>
+				   </div>
+				  <img src="imagenes/imagen/actividad.png" alt="">  
+			   </div>
+			  
+	   </div>
+	   <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+       </div>
+	                                                         <!-- Sección I -->
+	   
+	   <section class="contenedor-campus pageweb">
+           <img src="imagenes/imagen/estudios.png" alt="">
+           <div class="campus-textos">
+               <h2>¡Bienvenid@s!</h2>
+               <p>El campus académico de TEKNEDUCA gestiona una plataforma tecnológica de entornos virtuales para ofrecerte un proceso de enseñanza y 
+			      aprendizaje personalizado, abierto e intuitivo. Así es como favoreciendo la relación comunicativa entre sus miembros, se hace énfasis
+				  en la acción formativa y el modo de desarrollarla a través de la adecuación de metodologías y contenidos teóricos-prácticos.</p>
+			   <p>De esta manera, se configura este espacio conformado por las distintas aulas virtuales con los cursos online disponibles.</p>
+            </div>
+       </section>
+	
+	 <section class="cursos_lista">
+            <h2>Ingresa al campus académico TeKneduca</h2>
+			<h3>Selecciona tu curso virtual</h3>
+            <article class="cursos-cont">
+			   <div class="caja">
+                  <a href="#"><img src="imagenes/iconos/zeus.png" alt="Campus Zeus"></a>
+				  <h4>E-learning</h4>
+				  <p>Cerrado</p>				  
+			   </div>
+			   <div class="caja">
+				  <a href="#"><img src="imagenes/iconos/hera.png" alt="Campus Hera"></a>
+				  <h4>Plataformas LMS</h4>
+				  <p>Cerrado</p>				 
+			   </div>
+			   <div class="caja">
+                  <a href="#"><img src="imagenes/iconos/atenea.png" alt="Campus Atenea"></a>
+				  <h4>Flipped Classroom</h4>
+				  <p>Cerrado</p>				  
+			   </div>
+			   <div class="caja">
+                  <a href="#"><img src="imagenes/iconos/afrodita.png" alt="Campus Afrodita"></a>
+				  <h4>Contenidos Digitales</h4>
+				  <p>Cerrado</p>			  
+                </div>
+            </article>
+        
+    </section>
+
+                                                                   <!-- Botón de ir arriba -->
+   
+	<div class="go-top-container">
+       <div class="go-top-button">
+	      <img src="imagenes/iconos/up.png" alt="Ir a arriba" title="Ir a arriba">
+       </div>
+    </div>
+	<script src="js-stilo/gotop.js"></script>
+        
+	 
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/correo.png"><span class= etiqueta>soportekneduca@gmail.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+
+ </body>
+</html>

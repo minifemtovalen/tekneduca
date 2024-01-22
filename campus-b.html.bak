@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Campus virtual | Tekneduca</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+	<link rel="stylesheet" href="estilos/estilos_campus.css">
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu">  <!-- OJOOOO -->
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="#" id="selected">Inicio</a></li>
+				     <li><a href="cursos.html">Cursos online &#9660</a>
+				         <ul>
+					        <li><a href="#">E-learning 2.0</a></li>
+						    <li><a href="#">Plataformas LMS</a></li>
+						    <li><a href="#">Flipped Classroom</a></li>
+						    <li><a href="#">Contenidos digitales educativos</a></li>
+						 </ul>
+				     </li> 
+				     <li><a href="#">Campus virtual</a></li>
+				     <li><a href="#">Somos TeKneduca</a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+   
+   <!-- Banner o Portada -->
+															 
+	   <div class= "container_campus">
+	           <div class= "container_info_campus">
+			       <div class="textos">
+                      <h1>Campus Virtual</h1>
+					  <h2>Tu espacio académico de formación online</h2>
+                      <a href="#">Contacto</a>
+				   </div>
+				  <img src="imagenes/imagen/actividad.png" alt="">  
+			   </div>
+			  
+	   </div>
+	   <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+       </div>
+	                                                         <!-- Sección I -->
+	   
+	   <section class="contenedor-campus pageweb">
+           <img src="imagenes/imagen/estudios.png" alt="">
+           <div class="campus-textos">
+               <h2>Title of section</h2>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
+                molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!</p>
+            </div>
+       </section>
+	
+	 <section class="cursos_lista">
+        
+            <h2 class="titulo">Selecciona tu campus académico para ingresar a tu aula virtual</h2>
+            <article class="cursos-cont">
+			   <div class="caja">
+                  <img src="imagenes/iconos/zeus.png" alt="">
+				  <h4>Cohorte II-2022</h4>
+				  <p>Inicia 19 de septiembre de 2022</p>
+			   </div>
+			   <div class="caja">
+				  <img src="imagenes/iconos/hera.png" alt="">
+				  <h4>Cohorte II-2022</h4>
+				  <p>Inicia 19 de septiembre de 2022/p>
+				  <!-- <p>el manejo de sistemas virtuales</p> -->
+			   </div>
+			   <div class="caja">
+                  <img src="imagenes/iconos/atenea.png" alt="">
+				  <h4>Cohorte II-2022</h4>
+				  <p>Inicia 03 de octubre de 2022</p>
+			   </div>
+			   <div class="caja">
+                  <img src="imagenes/iconos/afrodita.png" alt="">
+				  <h4>Cohorte II-2022</h4>
+				  <p>Inicia 03 de octubre de 2022</p>
+                </div>
+            </article>
+        
+    </section>
+	   
+	   
+	   
+  <!-- <div class="container__all"> -->
+  
+                                                             
+     
+	                                                         
+	
+		 
+	  
+ 
+   
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/internet.png"><a href="#"><span class= etiqueta>http://tekneduca.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+<!-- </div> -->
+    <script src="js-stilo/estilo-java.js"></script>
+ </body>
+</html>

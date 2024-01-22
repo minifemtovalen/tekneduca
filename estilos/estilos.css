@@ -1,0 +1,491 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-b');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Euclid Circular B', sans-serif;
+	text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+    
+.container__all{
+    position: relative;
+    right: 0;
+    transition: all 300ms;
+}
+header{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	background: white;
+	box-shadow: 1px 1px 10px 0px #100010; 
+	transition: all 300ms;
+}
+
+.container_menu{
+	max-width: 1200px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+	
+}
+header .logo {
+	height: 100%;
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+}
+.logo img{
+	width: 180px;
+}
+.menu{
+	position: relative;  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;	
+}
+
+.menu ul{
+	display: flex;
+}
+
+.menu ul li{
+	height: 100%;
+	list-style: none;
+	position: relative;	
+}
+
+
+nav > ul > li > a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif, Arial;
+	color: #003333;
+	font-size: 14px;
+	font-weight: 500;
+	transition: all 300ms ease;
+}
+
+
+
+                                                          /* Cajita blanca submenú desplegado */
+/* Resaltado rosa del submenú desplegado */
+
+nav > ul > li > a:hover{
+	transform: scale(1.1);
+	color: #0033BF;
+}
+                                           /* Submenú desplegado */
+ /* Efecto de subir submenú blanco desplegado */
+nav ul li ul{
+	width: 310px;
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	position: absolute;
+	top: 70px;
+	left: -12px;
+	padding: 20px 0px;
+	visibility: hidden;
+	opacity: 0;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	z-index: 10;
+	transition: all 300ms ease;
+}
+nav ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	top: 45px;
+}
+nav ul li ul:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid white;
+	position: absolute;
+	top: -12px;
+	left: 20px;	
+}
+nav ul li ul li a{
+	
+	display: block;
+	color: #0048AB;
+	padding: 6px;
+	padding-left: 18px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	transition: all 300ms ease;
+}
+nav ul li ul li a:hover{
+	
+	background:#690AFF;
+	color: white;
+	transform: scale(1.1);
+	padding-left: 45px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#selected{
+    transform: scale(1.1);
+	background-color: #690AFF;
+	justify-content: center; 
+	color: white; 
+	font-weight: 600;
+	box-shadow: 0px 0px 10px 0px rgba (0,0,0,0.5);
+}
+
+
+                                                     /* Cuerpo del body  */
+  
+   
+  
+
+main{ 
+	background: #FFFFFF;
+}
+article{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 40px;
+	background: white;
+}
+article p{
+	margin-top: 20px;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333;
+	line-height: 150%;
+}
+article h1{
+	line-height: 250%;
+}
+
+                                                            /* Tarjetas */
+.container_box{
+	width: 100%;
+	display: flex;
+	margin: auto;
+}
+
+
+.card{
+	padding: 40px;
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow; hidden;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	cursor: default;
+	transition: all 400ms ease;
+	text-align: center;
+}
+.card:hover{
+	color: #000;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+	background: #fdfdfc; 
+	transform: traslateY(20%);
+	
+}
+.card img{
+	width: 60px;
+	margin-top: 20px;
+}
+.card .contenido{
+	padding: 0px 20px 25px;
+	text-align: left;
+}
+.figure img{
+	width: 70px; 
+	margin-bottom: 20px;
+}
+.figure2 img{
+	width: 130px; 
+	margin-bottom: 20px;
+}
+.contenido p{
+	font-size: 16px; 
+	font-weight: 500;
+	line-height: 1.5;
+	color: #313131;
+}
+.contenido h3{
+	margin-bottom: 15px;
+	font-size: 16pt; 
+	font-weight: 600;
+	color:#313131;
+	text-align: center;
+}
+.card:hover .contenido h3{
+	color:#313131;
+}
+.card:hover .contenido p{
+	color:#171C20;
+}
+                                                                 /* Tarjetas de Cursos */
+
+.content-cards-cursos{
+	margin-bottom: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	cursor: default;
+}
+.titulo-cursos{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 80px;
+	color: #373737;
+	margin-bottom: 30px;
+}
+.fondo1{
+	background: -webkit-linear-gradient(bottom, #FFE1CD 0%, #fff8f4 100%);
+	background: linear-gradient(to bottom, #FFE1CD 0%, #fff8f4 100%);
+}
+.fondo2{
+	background: -webkit-linear-gradient(bottom, #d9fcfc 0%, #f4f9f9 100%);
+	background: linear-gradient(to bottom, #d9fcfc 0%, #f4f9f9 100%);
+}
+.fondo3{
+	background: -webkit-linear-gradient(bottom, #ebe1ff 0%, #f6f2ff 100%);
+	background: linear-gradient(to bottom, #ebe1ff 0%, #f6f2ff 100%);
+}
+.fondo4{
+	background: -webkit-linear-gradient(bottom, #ffffb2 0%, #fffff5 100%));
+	background: linear-gradient(to bottom, #ffffb2 0%, #fffff5 100%);
+}
+.fondo5{
+	background: -webkit-linear-gradient(bottom, #ccecfc 0%, #edf7fc 100%));
+	background: linear-gradient(to bottom, #ccecfc 0%, #edf7fc 100%);
+}
+.card-cursos{
+    width: 23%;
+    text-align: center;
+    height: 380px;
+	border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card-cursos:hover{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+	background: #fafafa;
+    transform: scale(1.03);
+}
+
+
+.card-cursos h3{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+.card-cursos p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.cta{
+	color: #dc143c;
+	font-weight: 600;
+	transition: all 0.5s;
+    cursor: pointer;
+}
+.cta span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.cta span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -12px;
+  transition: 0.5s;
+}
+
+.cta:hover span {
+  padding-right: 25px;
+}
+
+.cta:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+   
+                                                                   /* Tabla de iconos*/
+.tabla_icono{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 120px 80px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 12pt; 
+	font-weight: 600;
+	color: #ffffff;
+    text-align: center;
+	
+}
+.box{
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.box img{
+	width: 75px; 
+}
+
+
+
+                                                         /* Responsive */
+ .icon_menu{
+	font-size: 26px;
+	color: #373737;
+	cursor: pointer;
+	width: 66px;
+	height: 66px;
+	/* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background 300ms;
+	display: none;
+}
+ #label_check{
+	width: 66px;
+	height: 100%;
+	display: none;
+}
+ #check_menu{
+	display: none;
+}
+.icon_menu:hover{
+	background: #F1FAFF;
+}
+
+@media screen and (max-width: 1000px){
+	 .card-cursos{
+        width: 90%;
+		margin-bottom: 20px;
+    }
+ }
+@media screen and (max-width: 835px){
+	nav > ul{
+		opacity: 0;
+		visibility: hidden;	
+	}
+}
+@media screen and (max-width: 830px){
+    
+	.logo img{
+	   width: 180px;
+    }
+		
+    nav > ul{
+		flex-direction: column;
+		background-color: #f6f6f6;
+		position: fixed;
+		left: 0;
+		top: 90px;  /*subir menú y pegarlo al header*/
+		width: 100%;
+		height: 0px;
+		transition: all 300ms ease;
+		z-index: 100;
+	} 
+	
+	nav > ul > li > a{
+		border-radius: 0px;
+	}
+		
+	nav > ul > li > a:hover{
+		transform: scale(1);
+		background-color: #690AFF;
+		color: #ffffff;
+		font-weight: 600;
+	}
+	nav ul li ul{
+		left: 95px;
+    }
+	nav > ul > li:hover ul{
+	    top: 55px;		
+    }
+	
+	#selected{
+		transform: scale(1);
+	}  
+	
+	#label_check{
+		display: block;
+	}
+	.icon_menu{
+		display: flex;
+	}
+	#check_menu:checked ~ nav > ul{
+		height: 270px;
+		visibility: visible;
+		opacity: 1;
+	}
+	
+	
+	 .container_box{
+		flex-direction: column;
+		padding: 10px;
+		justify-content: center;
+	}
+	
+	.cuadro img{
+		width: 300px;
+		justify-content: center; 
+   }
+   
+   	.card{
+		
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.figure img{
+		width: 55px; 
+	}
+	
+    .tabla_icono{
+		flex-direction: column;
+		padding: 10px;
+		justify-content: center;
+	}
+	.box{
+		
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.box img{		
+		width: 45px; 
+	}
+ }

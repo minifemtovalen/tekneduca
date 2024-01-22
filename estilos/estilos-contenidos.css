@@ -1,0 +1,420 @@
+*{  
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Portada Cover 1*/
+   .contenido_cover{
+	margin-top: 90px;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #66F9F1, #690AFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66F9F1, #690AFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    padding: 48px;
+    width: 100%;
+	animation: fade 2s ease-in;
+}
+     
+.contenido_info_cover{
+	width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.textos img{
+	display: block;
+    height: 450px;
+    object-fit: cover;	
+}
+.textos{
+    width: 50%;
+}
+.textos h1{
+	    
+		font-size: 50px;
+		font-weight: 600;
+		color: #FFFFFF;
+		text-shadow: 3px 3px #000000;
+		margin-bottom: 10px;
+}
+.textos h2{ 
+		font-size: 27px;
+		font-weight: 500;
+		color: #1C1C1F;
+		margin-bottom: 15px;
+}
+
+.textos p{
+		font-size: 23px;
+		font-weight: 500;
+		color: #1C1C1F;
+}
+.contenido_info_cover a{
+  color: #1C1C1F;
+  font-size: 18px;
+  font-weight: 500;
+}
+.inicia a:link{
+	color: #FFFF00;
+}
+.contenido_info_cover a:hover{
+   color: #1C1C1F;
+   font-weight: 500;
+   background: rgba(190,255,255,0.6);
+}
+.inscripcion{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 2px solid #1C1C1F;
+    width: 180px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: arriba 1s ease-in;
+	margin-bottom: 20px;
+}
+.inicia{    
+	font-size: 18px;
+	color: #1C1C1F;
+	font-weight: 400;
+}
+.wave{
+	height: 100px;
+    width: 100%;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #66F9F1, #690AFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66F9F1, #690AFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	animation: fade 2s ease-in;
+}
+
+@keyframes fade {
+	0% {
+        opacity: 0;
+		
+    }
+   
+    50% {
+        opacity: 1;
+		
+    }
+}        
+@keyframes mover{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);		
+    }
+
+    100%{
+        opacity: 1;
+		transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+    }
+	
+}
+                                               /* Estilos generales */
+
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.wave-contenedor h3{
+	font-size: 28px;
+}
+                                                       /* Subrayado */
+.margen_superior{
+	margin-bottom: 50px;
+	text-align: center; 
+    font-weight: 500;
+    font-size: 28px;
+    color: #202931;	
+}
+.margen_superior h2{
+	display: inline-block;
+	position: relative;
+}
+.margen_superior h2::after{
+	content:"";
+	position: absolute;
+    width: 100px;
+	height: 4px;
+    background-color: #F72958;
+	top: 1.4em;
+	left: 80px;
+}
+.parrafo{
+    text-align: justify;
+	margin-top: 20px;
+	line-height: 150%;
+	color: #202931;	
+}
+.subtitulo{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center; 
+    font-weight: 500;
+    font-size: 28px;
+    color: #202931;	
+}
+.parrafo-info{
+	color: #ed5353;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+
+                                             /* Cuadro informativo */
+
+.content-cards-elearn{
+	margin-bottom: 50px;
+	display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	cursor: default;
+}
+.titulo-elearn{
+	font-size: 36px;
+	text-align: center;
+	color: #373737;
+	margin-bottom: 30px;
+}
+.card-elearn{
+    width: 66%;
+    text-align: left;
+    height: 425px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(bottom, #DBF6FB 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #DBF6FB 0%, #ffffff 100%);
+	transform: scale(1);
+    transition: transform 0.6s;
+}
+.icono img{
+	margin-left: 50px;
+	width: 50px; 
+}
+
+.card-elearn p > img{
+	width: 20px;
+	
+}
+
+.card-elearn:hover{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+}
+.card-elearn h3{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 22px;
+	color: #474546;
+}
+.card-elearn p{
+	margin-left: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	line-height: 150%;
+	color: #F72958;	
+}
+                                           /* Método de Pagos */
+
+.content-cards-pago{
+	margin-bottom: 80px;
+	display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	cursor: default;
+}
+.fondo1{
+	background: -webkit-linear-gradient(bottom,  #FCD9E2 0%, #FEEFED 100%);
+	background: linear-gradient(to bottom, #FCD9E2 0%, #FEEFED 100%);
+}
+.fondo2{
+	background: -webkit-linear-gradient(bottom, #caf1f9 0%, #EBFAFD 100%);
+	background: linear-gradient(to bottom, #caf1f9 0%, #EBFAFD 100%);
+}
+.card-pago{
+    width: 40%;
+    text-align: center;
+    height: 240px;
+	border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.figura img{
+	width: 50px;
+}
+
+.card-pago h3{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #313131;
+}
+.card-pago:hover{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+}
+.card-pago p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+                             /* Apartado */
+.apartado{
+	background: -webkit-radial-gradient(#690AFF, #690AFF);
+	background: radial-gradient(#66F9F1, #690AFF);
+	width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 60px 0;
+}
+.apartado h2{
+	color: #1C1C1F;
+}
+.apartado a{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: 700;
+    padding: 25px 45px;
+    color: #FFFFFF;
+	background-color: #FF5757;
+    border: 2px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #d6bcff;
+	justify-content:  center;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+.apartado a:hover{
+	background-color: #F72958;
+	box-shadow: 0 0 5px 5px rgba(226, 252, 252, .5);
+	transform: scale(1);
+}
+
+
+                                               /* Responsive */
+											   
+ @media screen and (max-width: 1200px){ 
+	.card-elearn{
+        width: 80%;
+		height: 460px;
+    }
+}
+
+@media screen and (max-width: 1100px){ 
+	.card-elearn{
+        width: 90%;
+		height: 430px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .contenido_cover img{
+        height: 400px;
+    }
+
+}
+@media screen and (max-width: 890px){ 
+	.card-elearn{
+       height: 550px;
+    }
+}
+@media screen and (max-width: 830px){
+	.subrayado{
+	   margin-top: 80px;
+	}
+          
+	.card-elearn{
+		width: 90%;
+        height: 530px;
+    }	
+	
+}
+@media screen and (max-width:800px){
+    .contenido_cover img{
+        height: 300px;
+    }    
+}
+@media screen and (max-width: 720px){
+	.card-elearn{
+      	height: 625px;
+    }
+	.card-pago{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+	.content-cards-pago{
+		flex-direction: column;
+		padding: 10px;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width:700px){
+    .contenido_cover img{
+        height: 250px;
+    }
+    .textos h1{
+        font-size: 40px;
+    }
+
+    .textos h2{
+        font-size: 23px;
+    }
+	.textos p{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:450px){
+    .contenido_info_cover{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+	.textos{
+        width: 100%;
+        text-align: center;
+    }
+	.textos h1{
+        font-size: 35px;
+    }
+    
+}
+@media screen and (max-width:340px){
+	.contenido_cover img{
+        height: 100px;
+    }
+    .textos h1{
+        font-size: 30px;
+    }
+    .textos a{
+        width: 120px;
+    }
+    .textos h2{
+        font-size: 18px;
+    }
+}

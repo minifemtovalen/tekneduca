@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Cursos | Tekneduca</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/estilos_cursos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu">  <!-- OJOOOO -->
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="index.html">Inicio</a></li>
+				     <li><a href="#" id="selected">Cursos online &#9660</a>
+				         <ul>
+					        <li><a href="#">E-learning 2.0</a></li>
+						    <li><a href="#">Plataformas LMS</a></li>
+						    <li><a href="#">Flipped Classroom</a></li>
+						    <li><a href="#">Contenidos digitales educativos</a></li>
+						 </ul>
+				     </li> 
+				     <li><a href="campus.html">Campus virtual</a></li>
+				     <li><a href="#">Somos TeKneduca</a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+ 
+  
+                                                             <!-- Banner o Portada -->
+															 
+	   <div class= "contenido_cover">
+	           <div class= "contenido_info_cover">
+			       <h2>Únete a nuestra comunidad virtual</h2>
+				   <h1>CONOCE NUESTROS CURSOS OFERTADOS</h1>
+				   <p>¡Aprende fácilmente!</p>
+			   </div>
+			   
+	   </div>
+	      
+	                                                          <!-- Cover -->
+	<section class="wave-contenedor website">
+        <img src="imagenes/imagen/people.png" alt="">
+        <div class="contenedor-textos-main">
+            <h2 class="titulo_cover">Con Tekneduca...</h2>
+			<p class="parrafo">Alcanza tus metas y logras la preparación académica apropiada para una experticia actualizada. Mediante el aprovechamiento de un universo de alternativas que brindan  
+			las TIC, configuras espacios virtuales de calidad, integrando procesos tecnológicos y pedagógicos más personalizados y actualizados.</p>
+           
+        </div>
+    </section>
+	 <section class="info">
+        <div class="contenedor">
+            <h2>¡Inscripciones Gratis!</h2>
+            <p>Tu experiencia formativa es importante para nosostros</p>
+			<p>¿Qué esperas?</p>
+        </div>
+        </div>
+    </section>
+	
+	 <!-- <section class="cursos_lista"> -->
+        <!-- <div class="contenedor"> -->
+            <!-- <h2 class="titulo">Nuestros cursos</h2> -->
+            <!-- <article class="cursos-cont"> -->
+			   <!-- <div class="caja"> -->
+                  <!-- <img src="imagenes/iconos/elearning.png" alt=""> -->
+				  <!-- <h4>E-LEARNING 2.0</h4> -->
+				  <!-- <p>Adquiere estrategias que apoye el manejo de sistemas virtuales</p> -->
+			   <!-- </div> -->
+			   <!-- <div class="caja"> -->
+				  <!-- <img src="imagenes/iconos/lms.png" alt=""> -->
+				  <!-- <h4>PLATAFORMAS LMS</h4> -->
+				  <!-- <p>Crea tus propios cursos con plataformas tecnológicas de código abierto/p> -->
+				  <!-- <!-- <p>el manejo de sistemas virtuales</p> --> -->
+			   <!-- </div> -->
+			   <!-- <div class="caja"> -->
+                  <!-- <img src="imagenes/iconos/flipped.png" alt=""> -->
+				  <!-- <h4>FLIPPED CLASSROOM</h4> -->
+				  <!-- <p>Aplica en tus aulas virtuales clases inversas</p> -->
+			   <!-- </div> -->
+			   <!-- <div class="caja"> -->
+                  <!-- <img src="imagenes/iconos/contenidos.png" alt=""> -->
+				  <!-- <h4>CONTENIDOS DIGITALES</h4> -->
+				  <!-- <p>Crea recursos didácticos digitalizados</p> -->
+                <!-- </div> -->
+            <!-- </article> -->
+        <!-- </div> -->
+    <!-- </section> -->
+	<section class="cards-contenedor">
+        <h2 class="titulo-cursos">Nuestros cursos</h2>
+        <div class="content-cards-cursos">
+            <article class="card-cursos fondo1">
+                <div class= "figure">
+					   <img src="imagenes/iconos/lapiz.png" alt="E-learning 2.0" title="E-learning 2.0"> 
+				</div>
+                <h3>Elearning 2.0</h3>
+                <p>Adquiere estrategias que apoye el manejo de sistemas virtuales.</p>
+                <a href="" class="cta">Leer mas &raquo</a>
+            </article>
+            <article class="card-cursos fondo2">
+                <div class= "figure">
+					   <img src="imagenes/iconos/lapiz2.png" alt="Plataformas" title="Plataformas"> 
+				</div>
+                <h3>Plataformas LMS</h3>
+                <p>Crea tus propios cursos con plataformas tecnológicas de código abierto.</p>
+                <a href="" class="cta">Leer mas &raquo</a>
+            </article>
+            <article class="card-cursos fondo3">
+                <div class= "figure">
+					   <img src="imagenes/iconos/flip.png" alt="E-learning 2.0" title="E-learning 2.0"> 
+				</div>
+                <h3>Flipped Classroom</h3>
+                <p>Aplica en tus aulas virtuales clases inversas.</p>
+                <a href="" class="cta">Leer más &raquo</a>
+            </article>
+			<article class="card-cursos fondo4">
+               <div class= "figure">
+					   <img src="imagenes/iconos/contenidos-a.png" alt="E-learning 2.0" title="E-learning 2.0"> 
+				</div>
+                <h3>Contenidos Digitales</h3>
+                <p>Crea recursos didácticos digitalizados.</p>
+                <a href="" class="cta">Leer más &raquo</a>
+            </article>
+        </div>
+       </section>
+	
+		
+		  
+		                                                                <!-- Información-->
+																		
+
+	 <section class="info2">
+        <div class="contenedor">
+            <h2>TeKnedúcate con nosotros</h2>
+            <p>Te acompañamos en tu experiencia de aprendizaje</p>
+			<p>¿Qué esperas?</p>
+        </div>
+        </div>
+    </section>
+			
+		
+		 
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/internet.png"><a href="#"><span class= etiqueta>http://tekneduca.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+
+    <script src="js-stilo/estilo-java.js"></script>
+ </body>
+</html>

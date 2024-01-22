@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Elearning | Tekneduca</title>
+	<link rel="icon" type="image/png" sizes="32x32"  href="favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/estilos-learn.css">
+	<link rel="stylesheet" href="estilos/base.css">
+	
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu">  <!-- OJOOOO -->
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="index.html">Inicio</a></li>
+				     <li><a href="cursos.html" id="selected">Cursos online &#9660 </a>
+				         <ul>
+					        <li><a href="#" id="selected">E-learning</a></li>
+						    <li><a href="plataformas.html">Plataformas LMS</a></li>
+						    <li><a href="flipped_classroom.html">Flipped Classroom</a></li>
+						    <li><a href="contenidos_digitales.html">Contenidos digitales educativos</a></li>
+						 </ul>
+				     </li> 
+					 <li><a href="inscripcion.html">¿Cómo inscribirme?</a></li>
+				     <li><a href="campus.html">Campus virtual</a></li>
+				     <li><a href="somos_tekneduca.html">Somos TeKneduca</a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+ 
+  
+                                                             <!-- Banner o Portada -->
+															 
+	   <div class= "contenido_cover banner1">
+	           <div class= "contenido_info_cover">
+			       <h2>TeKnedúcate en el presente para el futuro</h2>
+				   <h1>E-learning</h1>
+				   <p>Promueve el aprendizaje</p>
+				   <p>de tus estudiantes, construye y comparte</p>
+				   <p>conocimientos</p>
+			   </div>
+			   
+	   </div>
+	      
+	                                                          <!-- Cover -->
+	<section class="wave-contenedor">
+       
+	        <div class= "subtitulo margen_superior">  
+               <h2>Presentación</h2>
+		    </div>
+			<p class="parrafo">Las Tecnologías de la Información y la Comunicación (TIC), ofrecen nuevos modos de facilitar los aprendizajes mediante
+			métodos sociales y el uso de la Internet. Actualmente, es de importancia adquirir el conocimiento en el manejo de herramientas que te ayudarán
+			a ser un profesional docente altamente cualificado y actualizado. De esta manera, complementando tu preparación pedagógica, puedes brindar 
+			excelentes oportunidades y posibilidades en la formación online de tus estudiantes.</p>
+			<p class="parrafo">Este curso te ofrece una metodología de enseñanza-aprendizaje que puedes llevar a cabo por tu propia cuenta, además te
+			permite organizar tu tiempo de dedicación y se adapta a tu propio ritmo de aprendizaje al estar disponible 100% virtual.</p>
+			         
+       
+    </section>	
+	
+	 
+	  <section class="contenido-elern">
+         <h2 class="titulo-elearn">Con nuestro programa didáctico el participante:</h2>
+         <div class="content-cards-elearn">
+            <article class="card-elearn">
+			   <div class= "icono">
+					   <img src="imagenes/iconos/mouse1.png" alt=""> 
+			   </div>
+			    <h3>Programa E-learning</h3>
+                <p><img src="imagenes/iconos/check1.png" alt="">&nbsp Diseña experiencias de aprendizajes con técnicas e-learning innovadoras.</p>
+				<p><img src="imagenes/iconos/check1.png" alt="">&nbsp Utiliza herramientas digitales para diseñar y elaborar recursos de enseñanza virtual.</p>
+				<p><img src="imagenes/iconos/check1.png" alt="">&nbsp Gestiona recursos didácticos y actividades de aprendizajes.</p>
+				<p><img src="imagenes/iconos/check1.png" alt="">&nbsp Crea un Entorno Virtual para el Aprendizaje (EVA) para gestionar acciones formativas.</p>
+				<p><img src="imagenes/iconos/check1.png" alt="">&nbsp Facilita el desarrollo de procesos de enseñanza y aprendizaje efectivos.</p>
+            </article>
+           
+		 </div>
+      </section>
+	  
+	  <section class="wave-contenedor">      
+	        <p class="parrafo"><span style="color: #690AFF;"><strong>Dirigido a:</strong></span> el curso está orientado a docentes de cualquier nivel educativo, 
+			   facilicitadores, capacitadores y profesionales relacionados con el área educativa, así como también cualquier persona interesada en dictar clases o participar en actividades 
+			   académicas de formación online.</p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Duración:</strong></span> 6 meses.</p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Modalidad educativa:</strong></span> a distancia y 100% virtual.</p>
+            <p class="parrafo"><span style="color: #690AFF"><strong>Horas lectivas:</strong></span> 520 horas.</p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Módulos didácticos:</strong></span> 5 de contenidos programáticos y 1 de culminación.</p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Certificados digitales:</strong></span> cinco (5) certificados de aprobación concernientes a los
+			   módulos I al V. Adicionalmente, un (1) certificado de culminación después de concluir el modúlo VI.</p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Certificación final: </strong></span> se entregará el certificado digital de Curso Avanzado
+    		   "E-learning" (Módulo VI) cuando el participante haya aprobado los módulos anteriores y la actividad de finalización.</p>
+			
+			<div class= "subtitulo">  
+                 <h2>Contenido Didáctico</h2>
+		    </div>
+			    <h3>¿Qué encontrarás aquí?</h3>
+           	<p class="parrafo"><span style="color: #690AFF;"><strong>Nivel inicial</strong></span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo I:</strong>&nbsp Tecnología de la Información y la Comunicación (TIC) en la 
+			   formación online.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo II:</strong>&nbsp diseño instruccional tecnológico.</span></p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Nivel avanzado</strong></span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo III:</strong>&nbsp plataformas e-learning.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo IV:</strong>&nbsp estrategias colaborativas y herramientas e-learning para 
+			   generar cursos online.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo V:</strong>&nbsp microlearning: técnicas y herramientas de creación de 
+			   contenidos digitalizados.</span></p>
+			<p class="parrafo"><span style="color: #690AFF"><strong>Nivel de culminación</strong> a distancia y 100% virtual.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo IV:</strong>&nbsp evaluación final, certificación de reconocimiento y culminación.</span></p>
+	        
+			<div class= "subtitulo">  
+                 <h2>Inscripción y Pagos</h2>
+		    </div>			    
+           	<p class="parrafo"><span style="color: #690AFF;"><strong>Proceso de matrículación:</strong></span>  para empezar, debes crear una cuenta en 
+			nuestro sitio web e inscribirte en el curso virtual que sea de tu preferencia. Luego, sigues las clases del primer módulo del curso, y al finalizarlo, 
+			realizas el pago para obtener el certificado digital. Con la aprobación de cada módulo instruccional se emite su correspondiente certificación. 
+			Puedes continuar tu capacitación con el módulo siguiente, cuando solicites y canceles inmediatamente el certificado del último módulo culminado.</p>
+			<p class="parrafo">Este curso te ofrece una metodología de enseñanza-aprendizaje que puedes llevar a cabo por tu propia cuenta, además te
+			permite organizar tu tiempo de dedicación y se adapta a tu propio ritmo de aprendizaje al estar disponible 100% virtual.</p>
+			<p class="parrafo"><span style="color: #690AFF;"><strong>Inversión:</strong></span>  $20 Dólares por cada módulo instruccional.</p>
+			<p class="parrafo">Disponible también en las siguientes divisas:</p>
+			<p class="parrafo"><span style="margin-left: 40px;">* Perú: 60 soles.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;">* Venezuela: 70 bolívares (precio especial).</span></p>
+			                                             <!-- Métodos de Pago -->
+			<h3>Métodos de Pago</h3> 
+			<div class="content-cards-pago">
+              <article class="card-pago fondo1">
+                  <div class= "figura">
+					   <img src="imagenes/iconos/paypal.png" alt="Paypal" title="Paypal"> 
+				  </div>
+                  <p>Aceptamos pagos a través de la pasarela Paypal</p>     
+              </article>
+              <article class="card-pago fondo2">
+                  <div class= "figura">
+					   <img src="imagenes/iconos/banco.png" alt="Transferencia" title="Banco"> 
+				  </div>
+                  <p>Realiza tus pagos a través de nuestros banco afiliados</p>
+              </article>
+            </div>
+			<p class="parrafo">Nuestros programas se fundamentan en una metodología de estudio personalizada basada en el aprendizaje por 
+			   competencias. Este curso está diseñado especialmente para tí ¡Que esperas! Anímate a matricularte e inscribirte ahora mismo y 
+			   forma parte de nuestra comunidad.</p>
+		   
+    </section>	
+	<div class= "apartado"> 
+		<div class= "subtitulo">  
+            <h2>Inicia el 9 de enero de 2023</h2>     
+		</div>
+		<p style= "text-align: center"><a href="http://137.184.116.84/moodle/login/signup.php?">✔ Inscríbete hoy</a></p> 
+    </div>
+  
+
+                                                                      <!-- Botón de ir arriba -->  
+	<div class="go-top-container">
+       <div class="go-top-button">
+	      <img src="imagenes/iconos/up.png" alt="Ir a arriba" title="Ir a arriba">
+       </div>
+    </div>
+	<script src="js-stilo/gotop.js"></script>
+		 
+                                                                      <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/internet.png"><a href="#"><span class= etiqueta>http://tekneduca.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+
+ </body>
+</html>

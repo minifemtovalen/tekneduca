@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contenidos digitales | Tekneduca</title>
+	<link rel="icon" type="image/png" sizes="16x16"  href="favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/estilos-contenidos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+	
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu">  <!-- OJOOOO -->
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="index.html">Inicio</a></li>
+				     <li><a href="cursos.html" id="selected">Cursos online &#9660 </a>
+				         <ul>
+					        <li><a href="elearning.html">E-learning</a></li>
+						    <li><a href="plataformas.html">Plataformas LMS</a></li>
+						    <li><a href="flipped_classroom.html">Flipped Classroom</a></li>
+						    <li><a href="#" id="selected">Contenidos digitales educativos</a></li>
+						 </ul>
+				     </li>
+                     <li><a href="inscripcion.html">¿Cómo inscribirme?</a></li>					 
+				     <li><a href="campus.html">Campus virtual</a></li>
+				     <li><a href="somos_tekneduca.html">Somos TeKneduca</a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+ 
+  
+                                                             <!-- Banner o Portada -->
+															 
+	   <div class= "contenido_cover">
+	           <div class= "contenido_info_cover">
+			     <div class="textos">
+			       <p>TeKnedúcate</p>
+				   <p>en el presente para el futuro</p>
+				   <h1>Contenidos Digitales</h1>
+				   <h2>Educativos</h2>
+				   <p>Crea materiales didácticos digitalizados</p>
+				   <p>desde cualquier formato</p>
+			  </div>
+				 <img src="imagenes/imagen/contenido.png" alt="">  
+			   </div>		  
+	   </div>
+	   <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+       </div>
+	      
+	                                                          <!-- Cover -->
+	<section class="wave-contenedor">
+       
+	        <div class= "subtitulo margen_superior">  
+               <h2>Presentación</h2>
+		    </div>
+			<p class="parrafo">Las evidentes transformaciones en todas las actividades de la sociedad moderna, aunada al surgimiento de la llamada 
+			   Sociedad de la Información, seguidamente de la Sociedad del Conocimiento y apoyadas por la utilización de las herramientas que integran 
+			   las Tecnologías de la Información y la Comunicación (TIC), han conducido a la educación a replantearse el rol que debe asumir. 
+			   En consecuencia, las instituciones académicas persiguen mecanismos para adquirir nuevas estrategias que les permitan ponerse a tono con 
+			   las exigencias que conllevan a la mejora de la formación y el desarrollo humano.</p>
+			<p class="parrafo">Hoy día, el uso de las TIC se considera indispensable para afrontar y acceder a un mundo cada vez más digitalizado. Es por ello, 
+			   que los docentes necesitan de manera apropiada adquirir las competencias digitales para el diseño y elaboración de recursos, mediante 
+			   un conjunto de habilidades como una parte importante de su actualización permanente, pero además, inciden en una formación académica de 
+			   calidad sin menoscabar la oportuna acción pedagógica.</p>
+			<p class="parrafo">El presente curso pretende dar respuesta a la necesidad de los docentes de una preparación actualizada e innovadora, 
+			   que involucre la creación y acceso de materiales o recursos digitalizados para facilitar procesos de enseñanza y aprendizaje. De ahí que, 
+			   es fundamental una formación que configuren lo pedágogico con lo técnico, así como el desarrollo de modelos que posibiliten 
+			   enriquecer y trasladar la experiencia educativa a la realidad de las aulas de clases, con el apoyo y acompañamiento de las TIC en la 
+			   <i>praxis</i> cotidiana.</p>
+       
+    </section>	
+	
+	 
+	  <section class="contenido-elern">
+         <h2 class="titulo-elearn">Con nuestro programa didáctico el participante:</h2>
+         <div class="content-cards-elearn">
+            <article class="card-elearn">
+			   <div class= "icono">
+					   <img src="imagenes/iconos/clic.png" alt=""> 
+			   </div>
+			    <h3>Programa Contenidos Digitales Educativos</h3>
+                <p><img src="imagenes/iconos/check3.png" alt="">&nbsp Domina los fundamentos teóricos y prácticos para crear materiales educativos digitalizados.</p>
+				<p><img src="imagenes/iconos/check3.png" alt="">&nbsp Conoce los fundamentos que sustentan la comunicación visual.</p>
+				<p><img src="imagenes/iconos/check3.png" alt="">&nbsp Maneja adecuadamente los elementos que conforman la producción de recursos educativos.</p>
+				<p><img src="imagenes/iconos/check3.png" alt="">&nbsp Aplica herramientas TIC, disponibles para la elaboración de un contenido educativo.</p>
+				<p><img src="imagenes/iconos/check3.png" alt="">&nbsp Reconoce las formas de distribución de materiales educativos digitalizados.</p>
+            </article>
+           
+		 </div>
+      </section>
+	  
+	  <section class="wave-contenedor">
+       
+	        <p class="parrafo"><span style="color: #ed5353;"><strong>Dirigido a:</strong></span> el curso está orientado a docentes de cualquier nivel 
+			   educativo, facilicitadores, tutores, capacitadores y profesionales relacionados con el área educativa, interesados en diseñar y 
+			   desarrollar recursos educativos digitales bajo un enfoque tecnopedagógico.</p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Duración:</strong></span> 6 meses.</p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Modalidad educativa:</strong></span> a distancia y 100% virtual.</p>
+            <p class="parrafo"><span style="color: #ed5353"><strong>Horas lectivas:</strong></span> 520 horas.</p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Módulos didácticos:</strong></span> cinco (5) de contenidos programáticos y uno (1) de culminación.</p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Certificados digitales:</strong></span> cinco (5) certificados de aprobación concernientes 
+			   a los módulos I al V. Adicionalmente, un (1) certificado de culminación después de concluir el modúlo VI.</p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Certificación final: </strong></span> se entregará el certificado digital de <strong>Curso
+    		   Avanzado "Creación de Contenidos Digitales Educativos"</strong> (Módulo VI), cuando el participante haya aprobado los módulos anteriores y la 
+			   actividad de culminación.</p>
+			<div class= "subtitulo">  
+                 <h2>Contenido Didáctico</h2>
+		    </div>
+			    <h3>¿Qué vas a aprender?</h3>
+           	<p class="parrafo"><span style="color: #ed5353;"><strong>Nivel inicial</strong></span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo I:</strong>&nbsp fundamentos teóricos y prácticos del diseño de 
+			   recursos educativos digitales.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo II:</strong>&nbsp fundamentos que sustentan la comunicación audiovisual.</span></p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Nivel avanzado</strong></span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo III:</strong>&nbsp herramientas digitales para la creación de contenidos educativos.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo IV:</strong>&nbsp creación de materiales en formato digital sincrónicos y asincónicos.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo V:</strong>&nbsp implementación y distribución de los materiales educativos digitales.</span></p>
+			<p class="parrafo"><span style="color: #ed5353"><strong>Nivel de culminación</strong></span></p>
+			<p class="parrafo"><span style="margin-left: 40px;"><strong>Módulo IV:</strong>&nbsp  proyecto final, certificación de reconocimiento y culminación.</span></p>
+	        <div class= "subtitulo">  
+                 <h2>Inscripción y Pagos</h2>
+		    </div>
+			    
+           	<p class="parrafo"><span style="color: #ed5353;"><strong>Proceso de matrículación:</strong></span>  para empezar, debes debes crear una cuenta en 
+			   nuestro sitio web e inscribirte en el curso virtual que sea de tu preferencia. Luego, sigues las clases del primer módulo del curso, y al finalizarlo, realizas el 
+			   pago para obtener el certificado digital. Con la aprobación de cada módulo instruccional se emite su correspondiente certificación. 
+			   Puedes continuar tu capacitación con el módulo siguiente, cuando solicites y canceles inmediatamente el certificado del último módulo 
+			   culminado.</p>
+			<p class="parrafo">Este curso te ofrece una metodología de enseñanza-aprendizaje que puedes llevar a cabo por tu propia cuenta, además te
+			permite organizar tu tiempo de dedicación y se adapta a tu propio ritmo de aprendizaje al estar disponible 100% virtual.</p>
+			<p class="parrafo"><span style="color: #ed5353;"><strong>Inversión:</strong></span>  $20 Dólares por cada módulo instruccional.</p>
+			<p class="parrafo">Disponible también en las siguientes divisas:</p>
+			<p class="parrafo"><span style="margin-left: 40px;">* Perú: 60 soles.</span></p>
+			<p class="parrafo"><span style="margin-left: 40px;">* Venezuela: 70 bolívares (precio especial).</span></p>
+			                                             
+														 <!-- Métodos de Pago -->
+			<h3>Métodos de Pago</h3> 
+			<div class="content-cards-pago">
+              <article class="card-pago fondo1">
+                  <div class= "figura">
+					   <img src="imagenes/iconos/paypal.png" alt="Paypal" title="Paypal"> 
+				  </div>
+                  <p>Aceptamos pagos a través de la pasarela Paypal</p>     
+              </article>
+              <article class="card-pago fondo2">
+                  <div class= "figura">
+					   <img src="imagenes/iconos/banco.png" alt="Transferencia" title="Banco"> 
+				  </div>
+                  <p>Realiza tus pagos a través de nuestros banco afiliados</p>
+              </article>
+            </div>
+			<p class="parrafo">Nuestros programas se fundamentan en una metodología de estudio personalizada basada en el aprendizaje por 
+			   competencias. Este curso está diseñado especialmente para tí ¡Que esperas! Anímate a matricularte e inscribirte ahora mismo y 
+			   forma parte de nuestra comunidad.</p>
+		   
+    </section>	
+	<div class= "apartado"> 
+			   <div class= "subtitulo">  
+                   <h2>Inicia el 9 de enero de 2023</h2>     
+		       </div>			  
+			   <p style= "text-align: center"><a href="http://137.184.116.84/moodle/login/signup.php?">✔ Inscríbete hoy</a></p>    
+    </div>
+  	
+	
+	                                                                <!-- Botón de ir arriba -->
+   
+	<div class="go-top-container">
+       <div class="go-top-button">
+	      <img src="imagenes/iconos/up.png" alt="Ir a arriba" title="Ir a arriba">
+       </div>
+    </div>
+	<script src="js-stilo/gotop.js"></script>
+	
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/internet.png"><a href="#"><span class= etiqueta>http://tekneduca.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+
+ </body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TeKneduca</title>
+	<link rel="icon" type="image/png" sizes="16x16"  href="favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu">  <!-- OJOOOO -->
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="#" id="selected">Inicio </a></li>
+				     <li><a href="cursos.html">Cursos online &#9660 </a>
+				         <ul>
+					        <li><a href="elearning.html">E-learning</a></li>
+						    <li><a href="plataformas.html">Plataformas LMS </a></li>
+						    <li><a href="flipped_classroom.html">Flipped Classroom </a></li>
+						    <li><a href="contenidos_digitales.html">Contenidos digitales educativos </a></li>
+						 </ul>
+				     </li> 
+					 <li><a href="inscripcion.html">¿Cómo inscribirme?</a></li>
+				     <li><a href="campus.html">Campus virtual</a></li>
+				     <li><a href="somos_tekneduca.html">Somos TeKneduca</a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>	  
+   </header>
+                                                             <!-- Cuerpo principal de Portada y covers   -->
+  <div class="container__all">
+   <main>
+                                                             <!-- Banner o Portada -->
+															 
+	   <div class= "container_cover2">
+	           <div class= "container_info_cover2">
+			       <h1>TeKnedúcate</h1>
+				   <h2>en el presente para el futuro</h2>
+				   <p>Cursa algunos de nuestros programas virtuales.</p>
+				   <p>Desarrollas las competencias digitales para el</p>
+				   <p>uso de las tecnologías en el ámbito profesional</p>
+				   <p><a href="#">✔ Inscríbete hoy</a></p>
+			   </div>
+	   </div>
+     
+	                                                          <!-- Cover -->
+	<div class= "container_cover">
+	      <div class= "cover">
+		     <div class= "text">
+			    <h1>TeKnedúcate</h1>
+				<h2>a distancia</h2>
+				<p>Puedes adquirir nuevas competencias con nuestros cursos, a través de la educación a distancia. 
+				   Contamos con sistemas virtuales de enseñanza dinámicos y flexibles, adaptados a tu propio ritmo de aprendizaje. </p>
+			    <a href="cursos.html" class="leer">Conoce más &raquo </a>
+			  
+			 </div>
+			 <div class= "imagen">
+			    <img src= "imagenes/imagen/students.png" alt= "">
+			 </div>
+			  
+		  </div>
+		   
+      </div>
+      <article>
+	      <div class= "text_card">
+	             <h1>Además</h1><h2>&nbspte ofrecemos...</h2>
+		  </div>
+	      <div class= "container_card">  
+		         <div class= "blog_card">
+			     <img src="imagenes/imagen/chica.jpg" alt="Estudiante" title="Estudiante">  
+                    <div class="card_info">
+                        <p>&#10687 &nbsp Clases prácticas.</p>
+						<p>&#10687 &nbsp Tarifas accesibles.</p>
+						<p>&#10687 &nbsp Ofertas académicas actualizadas.</p>
+						<p>&#10687 &nbsp Atención tutorial.</p>
+                  </div>	
+		        </div> 
+                			
+		      
+          </div> 
+		<div class= "linea">   
+		    <h1>Te invitamos a que conozca nuestra comunidad de aprendizaje y que participes en cualquiera de los programas que sean de tu ínterés</h1>
+	    </div> 
+		  
+		                                                                <!-- Tarjetas Informativas-->
+		 <div class= "container_box">
+		        <div class= "card fondo1">
+				    <div class= "figure">
+					    <img src="imagenes/iconos/diseno.png" alt="Diseña" title="Diseña">  
+					</div>
+					<div class= "contenido">
+					    <h3>Diseña </h3>
+						<p>Procesos educativos, así como formas de interacción.</p>
+                        <p>Acciones formativas modernas, pertinentes y eficaces.</p>
+                       					
+					</div>
+				</div>
+				<div class= "card fondo2">
+				    <div class= "figure">
+					    <img src="imagenes/iconos/crea.png" alt="Crea" title="Crea">  
+					</div>
+					<div class= "contenido">
+					    <h3>Crea</h3>
+						<p>Materiales de aprendizajes centrados en el estudiante.</p>
+                        <p>Distintas opciones y posibilidades de actividades.</p>
+                       					
+					</div>
+				</div>
+				<div class= "card fondo4">
+				    <div class= "figure">
+					   <img src="imagenes/iconos/innova.png" alt="Innova" title="Innova"> 
+					</div>
+					<div class= "contenido">
+					    <h3>Experimenta e Innova </h3>
+						 <p>Usa medios y recursos digitales.</p>
+                         <p>Desarrolla educación en distintos escenarios.</p>
+                      					
+					</div>
+				</div>
+		  </div>
+	
+		
+		 <br></br>
+	     <h1 class="efecto-linea2">Inicia tu formación con nuestros cursos profesionales</h1></br>
+         <p style="text-align: center;"><span style="font-size: 14pt;">Desarrolla nuevas competencias con planes de estudios 100% a distancia y virtual</span></p><br></br>
+         		 
+		 
+	                                             <!-- Tarjetas de Cursos -->
+	   <section class="cards-contenedor">
+        <h2 class="titulo-cursos">Nuestros cursos</h2>
+        <div class="content-cards-cursos">
+            <article class="card-cursos fondo1">
+                <div class= "figure">
+					   <img src="imagenes/iconos/learn.png" alt="E-learning" title="E-learning"> 
+				</div>
+                <h3>E-learning</h3>
+                <p>Herramientas tecnológicas para el uso educativo</p>
+                <a href="elearning.html" class="cta" style="vertical-align:middle"><span>Conoce más</span></a>
+            </article>
+            <article class="card-cursos fondo2">
+                <div class= "figure">
+					   <img src="imagenes/iconos/plata_lms.png" alt="Plataformas LMS" title="Plataformas LMS"> 
+				</div>
+                <h3>Plataformas LMS</h3>
+                <p>Distribución del conocimiento a través de plataformas online</p>
+                <a href="plataformas.html" class="cta" style="vertical-align:middle"><span>Conoce más</span></a>
+            </article>
+            <article class="card-cursos fondo3">
+                <div class= "figure">
+					   <img src="imagenes/iconos/flipp.png" alt="Flipped Classroom" title="Flipped Classroom"> 
+				</div>
+                <h3>Flipped Classroom</h3>
+                <p>Programas y cursos bajo este enfoque educativo</p>
+                <a href="flipped_classroom.html" class="cta" style="vertical-align:middle"><span>Conoce más</span></a>
+            </article>
+			<article class="card-cursos fondo4">
+               <div class= "figure">
+					   <img src="imagenes/iconos/content.png" alt="Contenidos digitales" title="Contenidos digitales"> 
+				</div>
+                <h3>Contenidos Digitales</h3>
+                <p>Recursos que se utilizan en la educación virtual</p>
+                <a href="contenidos_digitales.html" class="cta" style="vertical-align:middle"><span>Conoce más</span></a>
+            </article>
+        </div>
+       </section>
+		 
+		 
+		 
+         <p style="text-align: center;"><span style="font-size: 18pt;"><strong>¿Por qué eligir un curso en Tekneduca?</strong></span></p>
+        
+	  </article>
+	  
+	                                                <!-- Cuadros de iconos informativos -->
+	  
+		 <div class= "tabla_icono">
+		   <div class="box">
+		     <br><img src="imagenes/iconos/aprendes.png" alt="Aprendes a tu ritmo" title="Aprendes a tu ritmo">
+			   <p>Aprendes a tu propio ritmo</p></br>
+			</div>
+			<div class="box">
+			   <br><img src="imagenes/iconos/colabora.png" alt="Colaboración" title="Colaboración">
+			   <p>Aprendes de forma autónoma y colaborativa</p></br>
+			</div>
+			<div class="box">
+			   <br><img src="imagenes/iconos/tutor-a.png" alt="Aprendes con tutores" title="Aprendes con tutores">
+			   <p>Aprendes con tutores</p></br>
+			</div>
+			<div class="box">
+			   <br><img src="imagenes/iconos/linea.png" alt="Aprendes online" title="Aprendes online">
+			   <p>Aprendes online</p></br>
+			</div>
+			<div class="box">
+			   <br><img src="imagenes/iconos/metodos.png" alt="Aprendes activamente" title="Aprendes activamente">
+			   <p>Aprendes activamente</p></br>
+		    </div>
+		</div> 
+   </main>
+                                                                     <!-- Botón de ir arriba -->
+   
+	<div class="go-top-container">
+       <div class="go-top-button">
+	      <img src="imagenes/iconos/up.png" alt="Ir a arriba" title="Ir a arriba">
+       </div>
+    </div>
+   <script src="js-stilo/gotop.js"></script>
+	
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/correo.png"><a href="#"><span class= etiqueta>WhatsApp +58 414-7909455</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="https://www.facebook.com/Tekneduca"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+</div>
+	
+ </body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>¿Cómo inscribirme? | TeKneduca</title>
+	<link rel="icon" type="image/png" sizes="32x32"  href="favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+	<script src="https://kit.fontawesome.com/961e9f1654.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="stylesheet" href="estilos/base.css">
+	<link rel="stylesheet" href="estilos/estilos_inscrip.css">
+</head>
+<body>
+                                                           <!-- Header -->
+   <header id="header">  
+      <div class= "container_menu">
+	       <div class= "logo">
+		      <img src= "imagenes/logo-a.png" alt="">
+		   </div>
+		   <div class= "menu">
+		       <input type= "checkbox" id= "check_menu"> 
+		       <label id="#label_check" for="check_menu">
+		            <i class="fa-solid fa-bars icon_menu"></i>
+		       </label>
+		      <nav>
+			      <ul>
+				     <li><a href="index.html">Inicio</a></li>
+				     <li><a href="cursos.html">Cursos online &#9660 </a>
+				         <ul>
+					        <li><a href="elearning.html">E-learning</a></li>
+						    <li><a href="plataformas.html">Plataformas LMS </a></li>
+						    <li><a href="flipped_classroom.html">Flipped Classroom </a></li>
+						    <li><a href="contenidos_digitales.html">Contenidos digitales educativos </a></li>
+						 </ul>
+				     </li> 
+					 <li><a href="#" id="selected">¿Cómo inscribirme?</a></li>
+				     <li><a href="campus.html">Campus virtual </a></li>
+				     <li><a href="somos_tekneduca.html">Somos TeKneduca </a></li>
+				   
+				  </ul>
+				
+			  </nav>
+		   </div>
+	    </div>
+	  
+   </header>
+   
+                                                       <!-- Banner o Portada -->
+															 
+	   <div class= "container_campus">
+	           <div class= "container_info_campus">
+			       <div class="textos">
+                      <h1>¿Cómo Inscribirme?</h1>
+					  <h2>Aquí te explicamos cómo registarte online</h2>
+                      <a href="#">✔ Inscríbete hoy</a>
+				   </div>
+				  <img src="imagenes/imagen/registro.png" alt="">  
+			   </div>
+			  
+	   </div>
+	   <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+       </div>
+	                                                         <!-- Sección I -->
+	   
+	   <section class="contenedor-campus pageweb">
+           <img src="imagenes/imagen/cuenta.png" alt="">
+           <div class="campus-textos">
+               <h2>¡Crea tu cuenta!</h2>
+               <p>Crea una cuenta gratuita para obtener el ingreso a nuestra plataforma educativa. Si tienes una cuenta de usuario en nuestro 
+			   campus virtual, puedes visualizar tu curso, lo cual te permite acceder a un aprendizaje en línea mucho más amplio, flexible y dinámico...</p>
+			   <p>¡Aprende en cualquier momento y en cualquier lugar!</p>
+               <p><a href="#">✔ Inscríbete hoy</a></p>	          				
+            </div>
+       </section>
+	   
+	 <section class="cursos_lista">
+            <h2>¿Cómo acceder al campus virtual?</h2>
+            <article class="cuadro">
+			   <div class="caja-a">
+                  <img src="imagenes/iconos/user.png" alt="crear cuenta">
+				   <h4><a href="#">Crea tu cuenta</h4></a>
+				  <p>Regístrate para obtener una cuenta</p>
+			   </div>
+			   <div class="caja-a">
+				  <img src="imagenes/iconos/acceso.png" alt="acceder">
+				   <h4><a href="http://campus.tekneduca.com">Iniciar sesión</a></h4>
+				  <p>Acceso para personas registradas</p>
+			   </div>	  		   
+            </article>
+	 </section>
+	
+	 <section class="cursos_lista">
+            <h2>Regístrate y comienza tu formación</h2>
+			<h3>Requisitos para el registro en el campus virtual TeKneduca</h3>
+            <article class="cursos-cont">
+			   <div class="caja">
+                  <img src="imagenes/iconos/pc.png" alt="Computador">
+				  <h4>Un computador de escritorio, portátil (laptop) o tableta (tablet)</h4>
+				  <p>Es necesario tener a disposición para crear tu cuenta</p>
+			   </div>
+			   <div class="caja">
+				  <img src="imagenes/iconos/Network.png" alt="Conexión a Internet">
+				  <h4>Conexión a Internet</h4>
+				  <p>Debes estar conectado</p>
+			   </div>
+			   <div class="caja">
+                  <img src="imagenes/iconos/celular.png" alt="Teléfono inteligente">
+				  <h4>También puedes registrarte desde un teléfono inteligente</h4>
+				  <p>Descarga la app de Moodle</p>
+			   </div>
+			   <div class="caja">
+                  <img src="imagenes/iconos/registro.png" alt="Regístrate en la página web">
+				  <h4>Debes ingresar en esta página y llenar el formulario para crear tu cuenta.</h4>
+				  <p>Sitio web de TeKneduca http://www.tekneduca.com </p>
+                </div>
+            </article>
+        
+    </section>
+	
+	                                                      <!-- Línea de Tiempo Registro -->
+	<section class="registro">
+            <div class="campus-registro">
+               <h2>Registro Online</h2>
+               <p>Acá te contamos todo sobre cómo debes registrarte</p>
+            </div>
+     </section>
+	 
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <p>1. Regístrate como usuario en nuestra plataforma de aprendizaje</p> Usamos Moodle, considerada una de las 5 mejores plataformas eLearning y la más 
+		usada en todo el mundo.
+      </div>
+    </li>
+	<li>
+      <div>
+        <p> 2. Regístrate creando tu cuenta</p> Puedes acceder al formulario de crear nueva cuenta pinchando en el botón "Inscríbite hoy" de este sitio web. 
+		También lo puedes hacer mediante el botón de inscripción ubicado en ésta página.
+      </div>
+    </li>
+	<li>
+      <div>
+        <p>3. Completa algunos datos personales</p> Después de editar tus datos en el formulario, tienes que ir a la sección inferior y presionar el botón 
+		"Crear cuenta".
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>4. Confirma tu correo</p> Moodle enviará un e-mail de confirmación a la cuenta del correo que hayas especificado.
+		Si no recibes el correo en unos minutos, debes revisar en la carpeta de correo no deseado o Spam. El e-mail contendrá un link que debes
+		hacer click o copiar en el browser (en caso de copiarlo, asegúrate de seleccionar todo el texto del vínculo).
+      </div>
+    </li>
+	<li>
+      <div>
+        <p>5. Inicia sesión</p> Ingresa a Moodle con el link "Acceder", situado en la parte superior derecha de la pantalla. Debes introducir el nombre de usuario y 
+		contraseña que ingresastes al crear tu cuenta.
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>6. Selecciona el curso de tu preferencia</p> Escoge entre las categorías: E-learning, Plataformas LMS, Flipped Classroom y 
+		Contenidos Digitales Educativos. Todos nuestros cursos tienen un cupo limitado, lo que facilita la atención personalizada a nuestros participantes.
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>7. Matricúlate</p> Para que un participante pueda acceder a un curso deberá estar matriculado en él. Por eso, debes presionar el botón 
+		"Acceso" para solicitar tu ingreso. Seguidamente, te aparecerá el botón "Matricularme", el cual debes pinchar y ¡ahora si..! puedes acceder 
+		al módulo de inscripción.
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>8. Completa la matrículación</p> Para finalizar este proceso, debes cumplir con los requisitos que te solicitamos en el 
+		módulo de inscripción del curso seleccionado. Recuerda que la matriculación es gratis.
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>9. ¡LISTO!</p>Tienes tu cuenta creada en el Campus Virtual TeKneduca y el acceso a tu curso online.
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>10. ¡Bienvenid@s a nuestra comunidad!</p> Ya formas parte del grupo de TeKneduca, y a partir de ahora, puedes compartir con todos los demás participantes de tu curso. 
+		En TeKneduka no existe distancia sólo calidez humana.
+      </div>
+    </li>   
+  </ul>
+  <br/><br/>
+</section>
+
+
+
+                                                                   <!-- Botón de ir arriba -->
+   
+	<div class="go-top-container">
+       <div class="go-top-button">
+	      <img src="imagenes/iconos/up.png" alt="Ir a arriba" title="Ir a arriba">
+       </div>
+    </div>
+	<script src="js-stilo/gotop.js"></script>
+        
+	 
+                                                                    <!--     Pie de Página       -->
+   <footer>
+    <div class= "container_footer_all">
+      <div class= "container_body">
+        <div class= "columna-a">
+		   <img src= "imagenes/Logo-b.png" alt="TeKneduca">
+		   <p><span class= etiqueta>Teknedúcate en el presente para el futuro</span></p>
+	    </div>
+		<div class= "columna-b">
+              <h1>Contacta con nosotros</h1>
+		      <div class="row">
+			      <img src="imagenes/iconos/internet.png"><a href="#"><span class= etiqueta>http://tekneduca.com</span></a>
+			  </div>  
+			  <div class="row">
+			      <img src="imagenes/iconos/correo-electronico.png"><a href="#"><span class= etiqueta>academia@tekneduca.com</span></a>
+			  </div>
+	    </div>
+		<div class= "columna-c">
+		      <h1>Siguenos</h1>
+			   <div class="row2">
+			      <a href="#"><img src="imagenes/iconos/facebook-b.png"></a>
+			      <a href="#"><img src="imagenes/iconos/instagrams.png"></a>
+			      <a href="#"><img src="imagenes/iconos/twitter.png"></a>
+				  <a href="#"><img src="imagenes/iconos/linkedin.png"></a>
+			  </div>			  
+	    </div>
+      </div>
+      
+    </div>	
+    <div class= "container_footer">
+	    <small>&copy; 2022 <b>TeKneduca</b> -Todos los Derechos Reservados-</small>
+    </div> 
+</footer>
+
+ </body>
+</html>
