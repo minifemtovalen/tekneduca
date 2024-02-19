@@ -54,6 +54,9 @@
 .textos img{
 	 height: 24px;
 }
+.inicia a{
+	color: #BDEBF8;
+}
 .inicia{
     font-size:18px;
 	color: #FFF3EC;
@@ -65,7 +68,7 @@
 	color: #FFF3EC;
 	animation: moverIzquierda 1s ease-in;
 }
-.container_campus a:link{
+.container_campus a{
   color: #ffb71c;
 }
 .container_campus a:hover{
