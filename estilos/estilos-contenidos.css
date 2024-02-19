@@ -27,9 +27,9 @@ html{
     justify-content: space-around;
     margin: auto;
 }
-.textos img{
+.contenido_info_cover img{
 	display: block;
-    height: 450px;
+    height: 470px;
     object-fit: cover;	
 }
 .textos{
@@ -60,8 +60,8 @@ html{
   font-size: 18px;
   font-weight: 500;
 }
-.inicia a:link{
-	color: #FFFF00;
+.inicia a{
+	color: #FF0000;
 }
 .contenido_info_cover a:hover{
    color: #1C1C1F;
@@ -171,6 +171,22 @@ html{
 	font-weight: 600;
 	font-size: 18px;
 }
+.highlight {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.highlight-before {
+  width: calc(100% - 2px);
+  background: #FFEF60;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 5px);
+  top: 50%;
+  z-index: -1;
+  transform: skew(-15deg) translate(-50%,-50%);
+}
 
 
                                              /* Cuadro informativo */
@@ -258,8 +274,9 @@ h3{
     transform: scale(1);
     transition: transform 0.6s;
 }
-.figura img{
-	width: 50px;
+
+.figura i{
+	font-size: 50px;
 }
 
 .card-pago h3{
