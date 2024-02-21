@@ -135,14 +135,12 @@
 	display: inline-block;
 	position: relative;
 }
-.subtitulo h2::after{
-	content:"";
-	position: absolute;
-    width: 60px;
-	height: 4px;
-    background-color: #35C4C1;
-	top: 1.5em;
-	left: 70px;
+
+.marca{
+	background-image: linear-gradient(to right,#bdebf8,#bdebf8 4%,#bdebf8);
+	padding: .4px .4px; 
+	border-radius: .2em .2em; 
+	box-decoration-break: clone;
 }
 
 
