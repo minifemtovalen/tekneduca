@@ -67,10 +67,10 @@
 	animation: moverIzquierda 1s ease-in;
 }
 .marca{
-	background-image: linear-gradient(to right,#bdebf8,#bdebf8 4%,#bdebf8);
+	background: #FFEF60;
 	padding: .4px .4px; 
 	border-radius: .2em .2em; 
-	color: #FF7B61;
+	color: #E85642;
 	box-decoration-break: clone;
 }
 .container_campus a{
