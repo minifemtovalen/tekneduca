@@ -154,7 +154,7 @@ html{
 }
 .highlight-before {
   width: calc(100% - 2px);
-  background: #FFEF60;
+  background-image: linear-gradient(to right,#bdebf8,#bdebf8 4%,#bdebf8);
   height: 100%;
   display: block;
   position: absolute;
