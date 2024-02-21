@@ -67,7 +67,7 @@
 	animation: moverIzquierda 1s ease-in;
 }
 .marca{
-	background: #FFEF60;
+	background: #fff296;
 	padding: .4px .4px; 
 	border-radius: .2em .2em; 
 	color: #E85642;
@@ -108,7 +108,7 @@
 }
 .highlight-before {
   width: calc(100% - 2px);
-  background: #FFEF60;
+  background: #fff296;
   height: 100%;
   display: block;
   position: absolute;
