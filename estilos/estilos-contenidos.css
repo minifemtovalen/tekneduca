@@ -232,6 +232,7 @@ html{
 .card-elearn h3{
 	margin-top: 10px;
 	margin-left: 50px;
+	text-align: left;
 	font-size: 22px;
 	color: #474546;
 }

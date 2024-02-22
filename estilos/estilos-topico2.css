@@ -224,6 +224,7 @@
 .card-elearn h3{
 	margin-top: 10px;
 	margin-left: 50px;
+	text-align: left;
 	font-size: 22px;
 }
 .card-elearn p{
@@ -375,17 +376,18 @@ background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Fi
 		height: 460px;
     }
 }
-@media screen and (max-width:1000px){
-    .container_campus img{
-        height: 400px;
-    }
 
-}
 @media screen and (max-width: 1100px){ 
 	.card-elearn{
         width: 90%;
 		height: 430px;
     }
+}
+@media screen and (max-width:1000px){
+    .container_campus img{
+        height: 400px;
+    }
+
 }
 @media screen and (max-width: 890px){ 
 	.card-elearn{
@@ -444,7 +446,7 @@ background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Fi
 
 @media screen and (max-width: 720px){
 	.card-elearn{
-      	height: 625px;
+      	height: 725px;
     }
 	.card-pago{
         width: 90%;
