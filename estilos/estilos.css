@@ -371,7 +371,7 @@ background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, F
 	cursor: pointer;
 	width: 66px;
 	height: 66px;
-	/* display: flex; */
+	display: flex; 
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -387,7 +387,7 @@ background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, F
 	display: none;
 }
 .icon_menu:hover{
-	background: #F1FAFF;
+	background: #c4eaff;
 }
 
 @media screen and (max-width: 1000px){
