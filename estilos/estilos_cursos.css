@@ -62,8 +62,7 @@
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
-    padding: 0 0 80px 0;
-	
+    padding: 0 0 80px 0;	
 }
 .contenedor{
     padding: 80px 0;
@@ -147,9 +146,9 @@
 													
 @media screen and (max-width: 1080px){
 	.card-cursos{
-       width: 90%;	
+       width: 100%;	
     }
- }											
+ }										
 @media screen and (max-width: 830px){
 	.contenido_cover:before{
 	   content: "";
