@@ -15,7 +15,7 @@
 	   background-position: center;
 	   background-size: cover;
 	   background-repeat: no-repeat;
-	  animation: fade 1s ease-in-out;
+	   animation: fade 1s ease-in-out;
 	   z-index: 1;	
    }
     .contenido_info_cover{

@@ -561,6 +561,40 @@ footer{
 	.blog_card{	  
 	    height: auto;
 	}
+	.container_cover2:before{
+	   content: "";
+	   width: 100%;
+	   height: 100%;
+	   background: rgba(255,255,255,0.6);
+	   position: absolute;
+	   top: 0;
+	   left: 0;
+   }
+	.container_info_cover2 h1{
+		text-align: center;
+        font-size: 34px;
+		color: #0EACBA;
+		text-shadow: 2px 2px #1B444A;
+	}
+	.container_info_cover2 h2{
+		text-align: center;
+        font-size: 24px;
+		color: #184677;
+	}
+	.container_info_cover2 p{
+		text-align: center;
+        font-size: 18px;
+		color: #1B4147;
+	}
+	.container_info_cover2 a{
+		color: #1B4147;		
+		transition: all 300ms ease;
+	}
+	.container_info_cover2 a:hover{
+		background: rgba(190,255,255,0.2);
+		color: #184677;
+		border: 2px solid transparent;
+}   
  }
 
 @media only screen and (max-width: 700px) {
