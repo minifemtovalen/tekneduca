@@ -463,6 +463,14 @@ footer{
 	margin-top: 10px;
 	margin-left: 10px; 	
 }
+.contacto a{
+	color: #4878FF;	
+	font-weight: 500;
+}
+.contacto a:hover{
+	text-decoration: underline;
+}
+
 
 													  /* Tercera Columna */
 
