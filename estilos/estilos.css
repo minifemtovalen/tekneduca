@@ -153,9 +153,104 @@ nav ul li ul li a:hover{
 
 
                                                      /* Cuerpo del body  */
-  
-   
-  
+										  
+.popup {
+  padding: 10px;
+  min-width: 400px;
+  min-height: 550px;
+  position: fixed;
+  top: 30%;
+  left: 46%;
+  margin-top: -100px;
+  margin-left: -150px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  z-index: -1;
+  /* 1px higher than the overlay layer */
+  opacity: 0;
+}
+.popup img {
+	width: 70%;
+}
+.popup h3{
+	color: #07122b;
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.popup p{
+	color: #07122b;
+	font-size: 18px;
+	font-weight: 500;
+}
+.popup .cerrar{
+	display: block;
+    width: 150px;
+	position: relative;
+	margin: 30px auto;
+	text-align: center;
+	background: #0f72e5;
+	color: #ffffff;
+	font-weight:600;
+	text-decoration: none;
+	padding: 8px 0;
+	border-radius: 20px;
+}
+.popup .cerrar:hover{
+	background: #ffffff;
+	border: 3px solid #0f72e5;
+	color: #0f72e5;
+	font-weight: 600;
+}
+
+
+.overlay_canvas {
+  content: "";
+  position: fixed;
+  /* could also be absolute */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.overlay_popup.popup-open .overlay_canvas,
+.popup-open .popup {
+  opacity: 1;
+  z-index: 11
+}
+
+.close_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  outline: none !important;
+  text-shadow: none;
+  min-width: 3px;
+  font-size: 21px;  
+  display: block;
+  margin: 0 0 20px auto;
+  background: transparent;
+  font-size: 30px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #0f72e5;
+  color: #ffffff;
+
+}
+
+a {
+  text-decoration: none;
+}
 
 main{ 
 	background: #FFFFFF;
@@ -518,3 +613,107 @@ background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, F
 		width: 45px; 
 	}
  }
+ @media screen and (max-width: 809px){
+.popup {
+  padding: 35px;
+  min-width: 300px;
+  min-height: 470px;
+  top: 30%;
+  left: 30%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+ }
+ @media screen and (max-width: 800px){
+.popup {
+  padding: 35px;
+  min-width: 300px;
+  min-height: 550px;
+  top: 30%;
+  left: 40%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+ }
+ @media screen and (max-width: 500px){
+.popup {
+  padding: 35px;
+  min-width: 300px;
+  min-height: 550px;
+  top: 30%;
+  left: 31%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+ }
+ @media screen and (max-width: 428px){
+.popup {
+  padding: 25px;
+  min-width: 200px;
+  min-height:450px;
+  top: 30%;
+  left: 35%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.popup img{
+	width: 60%;
+}
+.popup p{
+	font-size: 16px;
+}
+}
+ @media screen and (max-width: 384px){
+.popup {
+  padding: 25px;
+  min-width: 200px;
+  min-height: 360px;
+  top: 30%;
+  left: 35%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.popup img{
+	width: 60%;
+}
+.popup p{
+	font-size: 16px;
+}
+}
+@media screen and (max-width: 376px){
+.popup {
+  padding: 25px;
+  min-width: 200px;
+  min-height: 360px;
+  top: 50%;
+  left: 33%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.popup img{
+	width: 50%;
+}
+.popup p{
+	font-size: 16px;
+}
+}
+@media screen and (max-width: 360px){
+.popup {
+  padding: 25px;
+  min-width: 200px;
+  min-height: 360px;
+  top: 50%;
+  left: 33%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+.popup img{
+	width: 40%;
+}
+.popup p{
+	font-size: 16px;
+}
+}
