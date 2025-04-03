@@ -61,13 +61,15 @@
     border-radius: 3px;
     text-align: center;
     padding: 10px 0;
+	width: 50%;
     animation: arriba 1s ease-in;
 	-webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
+	cursor: pointer;
 	
 }
 .textos a:hover{
-    background: rgba(190,255,255,0.2);
+    background: rgba(190,255,255,0.3);
 }
 
 .contenedor-campus a{
@@ -142,7 +144,7 @@
 }
 .pageweb .campus-textos h2{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
 	background: -webkit-linear-gradient(right, blue, #690AFF, #1CCBD0, #66E4F2);
 	background: linear-gradient(to right, blue, #690AFF, #1CCBD0, #66E4F2);
     -webkit-background-clip: text;
@@ -360,6 +362,57 @@
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #F7075A;
 }
+
+                             /* Apartado */
+.apartado{
+	background: #6a0dfe; 
+	width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 60px 0;
+}
+.apartado p{
+	font-weight: 500;
+	font-size: 20px;
+	color: #F8F9FA;
+	margin-bottom: 10px;
+}
+.apartado a{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: 700;
+    padding: 25px 45px;
+    color: #444444;
+	background-color:#FECE26; 
+    border: 3px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #d6bcff;
+	justify-content:  center;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+.apartado a:hover{
+	color: #F8F9FA;
+	background-color: #690AFF;
+	transform: scale(1);
+	box-shadow: 0 0 5px 5px rgba(226, 252, 252, .5);
+}
+.subtitulo{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center; 
+    font-weight: 500;
+    font-size: 26px;
+    color: #202931;	
+}
+
+                                                    /* Responsive */
+
 
 @keyframes moverIzquierda{
     0%{
