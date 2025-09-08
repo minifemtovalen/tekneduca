@@ -237,13 +237,15 @@ h3{
     flex-wrap: wrap;
 	cursor: default;
 }
-.fondo1{
+.fondo-1{
+	background: #F5C9D1;
 	background: -webkit-linear-gradient(bottom, #ed9aa9 0%, #F9DDE2 100%);
 	background: linear-gradient(to bottom, #ed9aa9 0%, #F9DDE2 100%);
 }
-.fondo2{
+.fondo-2{
+	background: #92eefc;
     background: -webkit-linear-gradient(bottom, #1aefef 0%, #C4FCF9 100%);
-	background: linear-gradient(to bottom, #1aefef 0%, #C4FCF9 100%);
+	background: linear-gradient(to bottom, #1aefef 0%, #defcfa 100%);
 }
 .card-pago{
     width: 40%;
@@ -274,8 +276,9 @@ h3{
 }
                              /* Apartado */
 .apartado{
-	background: -webkit-linear-gradient(bottom, #690AFF, #00CEC9);
-	background: linear-gradient(to bottom, #690AFF, #00CEC9);
+	background: #753fbf;
+	background: -webkit-linear-gradient(90deg,#753fbf,#4abfd9); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(90deg,#753fbf,#4abfd9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	width: 100%;
     overflow: hidden;
     margin: auto;
@@ -364,9 +367,7 @@ h3{
 	.card-elearn{
 		width: 90%;
         height: 530px;
-    }
-	
-	
+    }	
 	
 }
 @media screen and (max-width: 720px){

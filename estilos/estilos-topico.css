@@ -8,13 +8,44 @@
                                                                  /* Portada Cover 1*/
 
 .container_campus{
-	margin-top: 90px;
-    background: #00B4DB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin-top: 90px;    
     height: auto;
     padding: 48px;
     width: 100%;
+}
+.backfondo1{
+   background: #00B4DB;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
+}
+.backfondo2{
+   background: #e05e1f;  /* fallback for old browsers */
+   background: radial-gradient(at 87.43387746550081% 4.785152060424069%, hsla(23.88625592417062, 89.78723404255318%, 
+												  46.07843137254902%, 1) 0%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 0) 100%), 
+												  radial-gradient(at 32.80302626079792% 83.11610139373037%, hsla(286.984126984127, 90.43062200956939%, 
+												  40.98039215686274%, 1) 0%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 0) 100%), 
+												  radial-gradient(at 96.66727959856973% 7.94368322865826%, hsla(330.99337748344374, 87.28323699421969%, 
+												  66.07843137254902%, 1) 0%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 0) 100%), 
+												  radial-gradient(at 50.590574265284836% 88.51813966949531%, hsla(191.566265060241, 67.47967479674793%, 
+												  75.88235294117646%, 1) 0%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 0) 100%), 
+												  radial-gradient(at 33.767340057615634% 61.570026263986136%, hsla(23.88625592417062, 89.78723404255318%, 
+												  46.07843137254902%, 1) 0%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 0) 100%), 
+												  radial-gradient(at 86.53530480117789% 59.83729101036494%, hsla(286.984126984127, 90.43062200956939%, 
+												  40.98039215686274%, 1) 0%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 0) 100%), 
+												  radial-gradient(at 45.14414025914011% 11.825821526198887%, hsla(330.99337748344374, 87.28323699421969%, 
+												  66.07843137254902%, 1) 0%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 0) 100%), 
+												  radial-gradient(at 86.30658760268392% 19.558358690284084%, hsla(191.566265060241, 67.47967479674793%, 
+												  75.88235294117646%, 1) 0%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 0) 100%);           
+}
+.backfondo3{
+   background: #00688b;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(90deg,#00688b,#581074); /* Chrome 10-25, Safari 5.1-6 */ 
+   background: linear-gradient(90deg,#00688b,#581074); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.backfondo4{
+  background: #282475;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right,#282475,#3B5191,#73dae7); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to bottom right,#282475,#3B5191,#73dae7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container_info_campus{
     width: 90%;
@@ -39,8 +70,6 @@
 	color: white;
 	text-shadow: 2px 2px #1B444A;
 	margin-bottom: 10px;
-    animation: moverDerecha 1s ease-in;
-
 }
 
 .textos h2{
@@ -183,6 +212,23 @@
   z-index: -1;
   transform: skew(-15deg) translate(-50%,-50%);
 }
+.highlight2 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.highlight-before2 {
+  width: calc(100% - 2px);
+  background: #f9c2b6;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 5px);
+  top: 50%;
+  z-index: -1;
+  transform: skew(-15deg) translate(-50%,-50%);
+}
 
 
 
@@ -207,6 +253,7 @@
     text-align: left;
     height: 425px;
 	border-radius: 10px;
+	background: #F4F4FF;
 	background: -webkit-linear-gradient(bottom, #F4F4FF 0%, #ffffff 100%); 
 	background: linear-gradient(to bottom, #F4F4FF 0%, #ffffff 100%);
 	transform: scale(1);
@@ -256,12 +303,14 @@ h3{
 	cursor: default;
 }
 .fondo1{
-    background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #d299db, #dbbee0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #f3bffc;
+    background: -webkit-linear-gradient(to bottom, #f4c4fc 0%, #fcedff 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f4c4fc 0%, #fcedff 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .fondo2{
-	background: -webkit-linear-gradient(bottom, #d1eefc 0%, #ffffff 100%); 
-	background: linear-gradient(to bottom, #69E4F9 0%, #B4F2FC 100%);
+	background: #8be8f4;
+	background: -webkit-linear-gradient(to bottom, #8be8f4 0%, #DFFAFE 100%); 
+    background: linear-gradient(to bottom, #8be8f4 0%, #DFFAFE 100%);
 }
 .card-pago{
     width: 40%;
@@ -291,7 +340,7 @@ h3{
     margin-bottom: 10px;
 }
                              /* Apartado */
-.apartado{
+.apartado1{
 	background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -300,11 +349,18 @@ h3{
     margin: auto;
     padding: 0 0 60px 0;
 }
-.apartado h2{
+.apartado2{
+    background: linear-gradient(to top, rgba(255,0,0,0), rgba(0, 255, 255, 0.5));
+	width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 60px 0;
+}
+.apartado1 h2{
 	color: #F8F9FA;
 	text-shadow: 2px 2px #1B444A;
 }
-.apartado a{
+.apartado1 a{
 	display: inline-block;
     text-decoration: none;
     font-size: 18px;
@@ -323,7 +379,7 @@ h3{
 	transition-duration: 0.4s;
 }
 
-.apartado a:hover{
+.apartado1 a:hover{
 	color: #F8F9FA;
 	background-color: #690AFF;
 	transform: scale(1);
@@ -386,7 +442,9 @@ h3{
     .container_campus img{
         height: 400px;
     }
-
+	.textos img{
+	 height: 24px;
+}
 }
 
 @media screen and (max-width: 890px){ 
@@ -401,17 +459,19 @@ h3{
 	}
           
 	.card-elearn{
-		width: 90%;
-        height: 530px;
-    }
-	
-	
-	
+        height: 480px;
+    }		
 }
 @media screen and (max-width:800px){
     .container_campus img{
         height: 300px;
-    }    
+    } 
+    .textos img{
+	 height: 24px;
+    } 
+.card-elearn{
+      	height: 475px;
+    }	
 }
 
 @media screen and (max-width: 720px){
@@ -439,6 +499,10 @@ h3{
     .textos h2{
         font-size: 20px;
     }
+	.textos img{
+	 height: 24px;
+    }
+	
     
 }
 @media screen and (max-width:450px){
@@ -455,7 +519,19 @@ h3{
         font-size: 35px;
     }    
 }
-@media screen and (max-width:340px){
+@media screen and (max-width:390px){
+	 .card-elearn{
+      	height: 830px;
+    }
+	    
+}
+@media screen and (max-width:378px){
+	 .card-elearn{
+      	height: 820px;
+    }
+	    
+}
+@media screen and (max-width:360px){
 	.container_campus img{
         height: 100px;
     }
@@ -467,6 +543,12 @@ h3{
     }
     .textos h2{
         font-size: 15px;
+    }
+	.textos img{
+	 height: 24px;
+     }
+	 .card-elearn{
+      	height: 875px;
     }
 	    
 }

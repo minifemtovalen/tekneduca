@@ -1,0 +1,139 @@
+*{  
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+                                                                 /* Portada Cover 1*/
+
+.container_campus{
+	margin-top: 90px;
+	background: #084fcc;  /* fallback for old browsers */
+    background:  -webkit-linear-gradient(300deg,#084fcc,#28236F, #142048); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(300deg,#084fcc,#28236F, #142048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    height: auto;
+    padding: 48px;
+    width: 100%;
+    animation: fade 2s ease-in-out;
+}
+.container_info_campus{
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.container_info_campus img{
+    display: block;
+    height: 480px;
+    object-fit: cover;
+    animation: arriba 1s ease-in;
+}
+
+.fondo-n{
+	background: #cc1414;
+	background: -webkit-linear-gradient(280deg,#ec7513,#cc1414,#340548,#1a1820); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(280deg,#ec7513,#cc1414,#340548,#1a1820); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.textos{
+    width: 50%;
+}
+.textos h1{
+    font-size:50px;
+	color: white;
+	text-shadow: 2px 2px #1B444A;
+	margin-bottom: 10px;
+    animation: moverDerecha 1s ease-in;
+
+}
+.textos h2{
+    font-size:35px;
+	color: #333333;
+	margin-bottom: 35px;
+    animation: moverIzquierda 1s ease-in;
+}
+.textos h3{
+    font-size:30px;
+	color: #ffffff;
+	margin-bottom: 35px;
+    animation: moverIzquierda 1s ease-in;
+}
+
+.textos img{
+	 height: 24px;
+}
+.textos p{
+	margin-top: 15px;
+	font-size:20px;
+	color: #FFF3EC;
+	line-height: 150%;
+	animation: moverIzquierda 1s ease-in;
+}
+
+.marca{
+	background-image: linear-gradient(to right,#bdebf8,#bdebf8 4%,#bdebf8);
+	padding: .4px .4px; 
+	border-radius: .2em .2em; 
+	box-decoration-break: clone;
+}
+
+
+                                                               /****** Responsive ******/
+@media screen and (max-width:1000px){
+    .container_info_campus img{
+        height: 400px;
+    }
+
+}
+@media screen and (max-width:800px){
+    .container_info_campus img{
+        height: 300px;
+    }    
+}
+@media screen and (max-width:700px){
+    .container_info_campusr img{
+        height: 250px;
+    }
+    .textos h1{
+        font-size: 40px;
+    }
+
+    .textos h2{
+        font-size: 23px;
+    }
+	.textos p{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:450px){
+    .container_info_campus{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+	.textos{
+        width: 100%;
+        text-align: center;
+    }
+	.textos h1{
+        font-size: 35px;
+    }
+    
+}
+@media screen and (max-width:340px){
+	.container_info_campus img{
+        height: 100px;
+    }
+    .textos h1{
+        font-size: 30px;
+    }
+    .textos a{
+        width: 120px;
+    }
+    .textos h2{
+        font-size: 18px;
+    }
+}

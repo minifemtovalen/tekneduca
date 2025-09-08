@@ -67,14 +67,16 @@ button.btn::after, button.btn::before {
 }
 button.btn::before {
   border: 0;
-  background-color: #17C0E9;
+ /* background-color: #17C0E9;*/
+  background-color: #2A2171;
   top: -0.75rem;
   left: 0.5rem;
   -webkit-animation: topAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
           animation: topAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
 }
 button.btn::after {
-  background-color: #F03559;
+ /* background-color: #F03559;*/
+  background-color: #FD623C;
   top: 3rem;
   left: 13rem;
   -webkit-animation: bottomAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s infinite alternate;

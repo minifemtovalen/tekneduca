@@ -41,8 +41,6 @@
 	color: white;
 	text-shadow: 2px 2px #1B444A;
 	margin-bottom: 20px;
-    animation: moverDerecha 1s ease-in;
-
 }
 
 .textos h2{
@@ -81,7 +79,7 @@
 	color: #E85642;
 }
 .container_campus a:hover{
-  color: #391FDF;
+  color: red;
   font-weight: 600;
   background: rgba(190,255,255,0.5);
 }
@@ -295,12 +293,8 @@ h3{
                              /* Apartado */
 .apartado{
 	background: #f79d00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	width: 100%;
     overflow: hidden;
     margin: auto;
@@ -400,11 +394,7 @@ background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Fi
        height: 550px;
     }
 }
-@media screen and (max-width:800px){
-    .container_campus img{
-        height: 300px;
-    }    
-}
+
 @media screen and (max-width: 830px){
 	.contenido_cover:before{
 	   content: "";
@@ -442,12 +432,14 @@ background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Fi
 	}
           
 	.card-elearn{
-		width: 90%;
         height: 530px;
-    }
+    }	
 	
-	
-	
+}
+@media screen and (max-width:800px){
+    .container_campus img{
+        height: 300px;
+    }    
 }
 
 @media screen and (max-width: 720px){
@@ -490,6 +482,18 @@ background: linear-gradient(to left, #BDFE30, #FF8373); /* W3C, IE 10+/ Edge, Fi
     .textos h1{
         font-size: 35px;
     }    
+}
+@media screen and (max-width: 376px){ 
+	.card-elearn{
+       
+		height: 780px;
+    }
+}
+@media screen and (max-width: 365px){ 
+	.card-elearn{
+       
+		height: 830px;
+    }
 }
 @media screen and (max-width:340px){
 	.container_campus img{

@@ -3,16 +3,13 @@
      padding: 0;
      box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
 
 /* Portada Cover 1*/
    .contenido_cover{
 	margin-top: 90px;
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #66F9F1, #690AFF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #66F9F1, #690AFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FBC4A7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: auto;
     padding: 48px;
     width: 100%;
@@ -31,6 +28,7 @@ html{
 	display: block;
     height: 470px;
     object-fit: cover;	
+	animation: arriba 2s ease-in;
 }
 .textos{
     width: 50%;
@@ -89,9 +87,9 @@ html{
 .wave{
 	height: 100px;
     width: 100%;
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #66F9F1, #690AFF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #66F9F1, #690AFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FBC4A7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: relative;
 	animation: fade 2s ease-in;
 }
@@ -210,7 +208,8 @@ html{
     text-align: left;
     height: 425px;
 	border-radius: 10px;
-	background: -webkit-linear-gradient(bottom, #DBF6FB 0%, #ffffff 100%);
+	background: #DBF6FB;
+	background: -webkit-linear-gradient(to bottom, #DBF6FB 0%, #ffffff 100%);
 	background: linear-gradient(to bottom, #DBF6FB 0%, #ffffff 100%);
 	transform: scale(1);
     transition: transform 0.6s;
@@ -260,11 +259,13 @@ h3{
 	cursor: default;
 }
 .fondo1{
-	background: -webkit-linear-gradient(bottom,  #FCD9E2 0%, #FEEFED 100%);
+	background: #FCD9E2;
+	background: -webkit-linear-gradient(to bottom,  #FCD9E2 0%, #FEEFED 100%);
 	background: linear-gradient(to bottom, #FCD9E2 0%, #FEEFED 100%);
 }
 .fondo2{
-	background: -webkit-linear-gradient(bottom, #caf1f9 0%, #EBFAFD 100%);
+	background: #caf1f9;
+	background: -webkit-linear-gradient(to bottom, #caf1f9 0%, #EBFAFD 100%);
 	background: linear-gradient(to bottom, #caf1f9 0%, #EBFAFD 100%);
 }
 .card-pago{
@@ -297,8 +298,9 @@ h3{
 }
                              /* Apartado */
 .apartado{
-	background: -webkit-radial-gradient(#690AFF, #690AFF);
-	background: radial-gradient(#66F9F1, #690AFF);
+    background: #f5c9d1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right,#93f7ff,#ffd1d4,#f7928f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	width: 100%;
     overflow: hidden;
     margin: auto;
@@ -422,7 +424,13 @@ h3{
     }
     
 }
-@media screen and (max-width:340px){
+@media screen and (max-width: 430px){ 
+	.card-elearn{
+
+		height: 730px;
+    }
+}
+@media screen and (max-width:393px){
 	.contenido_cover img{
         height: 100px;
     }
@@ -434,5 +442,8 @@ h3{
     }
     .textos h2{
         font-size: 18px;
+    }
+	.card-elearn{
+		height: 950px;
     }
 }

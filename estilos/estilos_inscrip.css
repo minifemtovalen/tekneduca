@@ -14,10 +14,19 @@
     background: linear-gradient(to right, blue, #690AFF, #6e16fc, #7b2afc, #1CCBD0, #66E4F2);
 	height: auto;
     padding: 48px;
-    width: 100%;
+    width: 100%; 
 }
+/*.container_campus2{
+	margin-top: 90px;
+    background: #28206C;  /* fallback for old browsers */
+/*    background: -webkit-linear-gradient(90deg,#0061fe,#000000); /* Chrome 10-25, Safari 5.1-6 */ 
+/*	background: linear-gradient(90deg,#0061fe,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	height: auto;
+    padding: 48px;
+    width: 100%; 
+}*/
 .container_info_campus{
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -26,28 +35,32 @@
 }
 .container_info_campus img{
     display: block;
-    height: 500px;
+    height: 430px;
     object-fit: cover;
     animation: arriba 1s ease-in;
 }
 
 .textos{
     width: 50%;
-    color:#000;
 }
 .textos h1{
     font-size:50px;
 	color: white;
 	text-shadow: 2px 2px #1B444A;
 	margin-bottom: 20px;
-    animation: moverDerecha 1s ease-in;
-
 }
 
 .textos h2{
     font-size:25px;
 	color: #FFF3EC;
     animation: moverIzquierda 1s ease-in;
+}
+.textos p{
+    font-size:16px;
+	color: #FFF3EC;
+	color:#fff;
+	font-weight: 600;
+	animation: moverIzquierda 1s ease-in;
 }
 
 .textos a{
@@ -61,7 +74,7 @@
     border-radius: 3px;
     text-align: center;
     padding: 10px 0;
-	width: 50%;
+	width: 40%;
     animation: arriba 1s ease-in;
 	-webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
@@ -98,9 +111,7 @@
   transition: all 300ms ease;
 }
 
-
-
-
+                                                                 /* Boton registrarse y accede I  de los cursos*/
 
 
 .wave{
@@ -110,6 +121,7 @@
     background: -webkit-linear-gradient(right, blue, #690AFF, #6e16fc, #7b2afc, #1CCBD0, #66E4F2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, blue, #690AFF, #6e16fc, #7b2afc, #1CCBD0, #66E4F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
                                                        
 													   /* Sección I */
 
@@ -364,20 +376,20 @@
 }
 
                              /* Apartado */
-.apartado{
+.apartado2{
 	background: #6a0dfe; 
 	width: 100%;
     overflow: hidden;
     margin: auto;
     padding: 0 0 60px 0;
 }
-.apartado p{
+.apartado2 p{
 	font-weight: 500;
 	font-size: 20px;
 	color: #F8F9FA;
 	margin-bottom: 10px;
 }
-.apartado a{
+.apartado2 a{
 	display: inline-block;
     text-decoration: none;
     font-size: 18px;
@@ -396,7 +408,7 @@
 	transition-duration: 0.4s;
 }
 
-.apartado a:hover{
+.apartado2 a:hover{
 	color: #F8F9FA;
 	background-color: #690AFF;
 	transform: scale(1);

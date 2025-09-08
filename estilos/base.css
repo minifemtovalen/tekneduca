@@ -5,72 +5,6 @@ box-sizing: border-box;
 }
 
                                                           /* Portada Cover 1 de index*/
-   .container_cover2{
-	   width: 100%;
-       height: 100%;
-	   position: relative;
-	   top: 90px;
-	   background-image: url(../imagenes/banner/banner-a.jpg);
-	   background-position: center bottom;
-	   background-size: cover;
-	   background-repeat: no-repeat;
-	   animation: fade 1s ease-in;
-	   position: relative;
-	   z-index: 1;
-   }
-  
-   .container_info_cover2{
-	  width: 90%;
-	  max-width: 1200px;
-	  height: 400px;
-	  margin: auto;
-	  display: flex;
-	  flex-direction:column;
-	  text-align: left;
-	  justify-content: center;
-	  align-items: left;
-	  position: relative;
-	  z-index: 1;
-   }
-    .container_info_cover2 h1{
-		font-size: 50px;
-		font-weight: 600;
-		color: white;
-		text-shadow: 3px 3px #000000;
-		transform: uppercase;
-		animation: chicle 1s 1s ease;
-	}
-	.container_info_cover2 h2{
-		font-size: 28px;
-		font-weight: 500;
-		color: white;
-		margin-bottom: 20px;
-	}
-	.container_info_cover2 p{
-		font-size: 18px;
-		font-weight: 500;
-		color: #E5FDFF;	
-    }
-	.container_info_cover2 a{
-		margin-top: 30px;
-		display: inline-block;
-        text-decoration: none;
-        font-size: 19px;
-		font-weight: 700;
-        padding: 10px 20px;
-        color: #B4F7FE;
-		background: transparent; /*Fondo transparente*/
-        border: 2px solid #fff;
-		border-radius: 10px;
-		box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
-		transition: all 300ms ease;
-        letter-spacing: 0.5px; /*Para separar un poco las letras*/
-	}
-	.container_info_cover2 a:hover{
-		background: rgba(190,255,255,0.2);
-		color: #ffffff;
-		border: 2px solid transparent;
-}   
 @keyframes fade{
    0%{
         opacity: 0;   
@@ -107,8 +41,6 @@ box-sizing: border-box;
         transform: translate(0);
     }
 }
-                                                
-
 														   /* Cover 2 de index*/
 
 .container_cover{
@@ -127,7 +59,7 @@ box-sizing: border-box;
 }
 .container_cover .text{
 	max-width: 500px;
-	margin-top: 40px;
+	margin-top: 10px;
 	z-index: 2;
 }
 .container_cover .text h1{
@@ -146,7 +78,7 @@ box-sizing: border-box;
 	font-family: 'Poppins', Segoe UI, Sans-serif;
 	font-size: 45px;
 	font-weight: 900;
-	color: #003333;
+	color: #28236F;
 	margin-top: -20px;
 	
 }
@@ -164,12 +96,12 @@ box-sizing: border-box;
 	padding: 10px 40px;
 	font-size: 18px;
 	font-weight: 600;
-	 border: 2px solid #0570fc;
-	 border-radius: 10px;
+	border: 2px solid #fc4a1a;
+	border-radius: 10px;
 	color: #fff;
-	background: red;
-	background: -webkit-linear-gradient(45deg, #03b5b1, #66f);
-	background: linear-gradient(45deg, #03b5b1, #66f);
+ 	background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	box-shadow: 1px 1px 30px -5px #20202049;
 	cursor: pointer;
 	transition: box-shadow 500ms;
@@ -184,7 +116,7 @@ box-sizing: border-box;
 }
 .container_cover .imagen img{
 	position: absolute;
-	bottom: 10px; 
+	bottom:-50px;
 	right: 0px;
 	margin-right: 26px;
 	width: 500px;
@@ -213,7 +145,7 @@ box-sizing: border-box;
 	font-size: 40px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
-	color: #2ca5a1;  	
+	color: #FD623C;  	
 }
 .container_card{
 	width: 100%;
@@ -356,7 +288,7 @@ box-sizing: border-box;
 .go-top-button {
     width: 0px;
     height: 0px;
-    background: #66E4F2;
+    background: #fdc500;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
@@ -395,9 +327,6 @@ box-sizing: border-box;
 .show .go-top-button img{
     transform: translate(-50%, -50%) scale(1.1);
 }
-
-
-
 
 
                                                                 /* Footer Pie de Página */
@@ -569,41 +498,8 @@ footer{
 	.blog_card{	  
 	    height: auto;
 	}
-	.container_cover2:before{
-	   content: "";
-	   width: 100%;
-	   height: 100%;
-	   background: rgba(255,255,255,0.6);
-	   position: absolute;
-	   top: 0;
-	   left: 0;
-   }
-	.container_info_cover2 h1{
-		text-align: center;
-        font-size: 34px;
-		color: #0EACBA;
-		text-shadow: 2px 2px #1B444A;
-	}
-	.container_info_cover2 h2{
-		text-align: center;
-        font-size: 24px;
-		color: #184677;
-	}
-	.container_info_cover2 p{
-		text-align: center;
-        font-size: 18px;
-		color: #1B4147;
-	}
-	.container_info_cover2 a{
-		color: #1B4147;		
-		transition: all 300ms ease;
-	}
-	.container_info_cover2 a:hover{
-		background: rgba(190,255,255,0.2);
-		color: #184677;
-		border: 2px solid transparent;
-}   
  }
+ 
 
 @media only screen and (max-width: 700px) {
 	.container_body{
