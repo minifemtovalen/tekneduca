@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<certificado>
+    <id_certificado>STEM-2025-001234</id_certificado>
+    <nombre_curso>Metodología STEM: Integración y Aplicación en el Aula Virtual</nombre_curso>
+    <institucion_emisora>Academia de Innovación Educativa</institucion_emisora>
+    <fecha_emision>2025-11-12</fecha_emision>
+    
+    <titular>
+        <nombre_completo>Ana María López García</nombre_completo>
+        <documento_identidad>V12345678</documento_identidad>
+    </titular>
+    
+    <detalles_curso>
+        <duracion_horas>40</duracion_horas>
+        <modalidad>Virtual Asíncrona</modalidad>
+        <fecha_inicio>2025-10-01</fecha_inicio>
+        <fecha_fin>2025-10-30</fecha_fin>
+        <calificacion_obtenida>Aprobado</calificacion_obtenida>
+        <criterio_aprobacion>80% de avance y evaluación final con nota mínima de 70/100</criterio_aprobacion>
+    </detalles_curso>
+    
+    <temas_cubiertos>
+        <tema>Fundamentos del enfoque STEM y STEAM</tema>
+        <tema>Diseño de Proyectos Interdisciplinarios</tema>
+        <tema>Integración de Ciencias, Tecnología, Ingeniería y Matemáticas</tema>
+        <tema>Uso de Herramientas Digitales para la Metodología STEM</tema>
+        <tema>Evaluación Formativa en Proyectos STEM</tema>
+    </temas_cubiertos>
+    
+    <autoridades>
+        <autoridad>
+            <cargo>Director Académico</cargo>
+            <nombre>Dr. Javier Soto Méndez</nombre>
+            <firma_digital_hash>a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0</firma_digital_hash>
+        </autoridad>
+    </autoridades>
+    
+    <verificacion>
+        <url_verificacion>https://www.innovacioneducativa.com/verificar/STEM-2025-001234</url_verificacion>
+        <hash_blockchain_sha256>9876543210fedcba9876543210fedcba9876543210fedcba9876543210fedcba</hash_blockchain_sha256>
+    </verificacion>
+</certificado>
